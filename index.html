@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<!-- saved from url=(0043)https://semantic-ui.com/examples/fixed.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <!-- Standard Meta -->
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <!-- Site Properties -->
+  <title>News Scraper</title>
+  <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
+  <link rel="stylesheet" type="text/css" href="semantic/dist/components/reset.css">
+  <link rel="stylesheet" type="text/css" href="semantic/dist/components/site.css">
+
+  <link rel="stylesheet" type="text/css" href="semantic/dist/components/container.css">
+  <link rel="stylesheet" type="text/css" href="semantic/dist/components/grid.css">
+  <link rel="stylesheet" type="text/css" href="semantic/dist/components/header.css">
+  <link rel="stylesheet" type="text/css" href="semantic/dist/components/image.css">
+  <link rel="stylesheet" type="text/css" href="semantic/dist/components/menu.css">
+
+  <link rel="stylesheet" type="text/css" href="semantic/dist/components/divider.css">
+  <link rel="stylesheet" type="text/css" href="semantic/dist/components/list.css">
+  <link rel="stylesheet" type="text/css" href="semantic/dist/components/segment.css">
+  <link rel="stylesheet" type="text/css" href="semantic/dist/components/dropdown.css">
+  <link rel="stylesheet" type="text/css" href="semantic/dist/components/icon.css">
+  <link rel="stylesheet" type="text/css" href="semantic/dist/components/tab.css">
+
+  <script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+  <script src="src/jquery.address-1.5"></script>
+  <script src="semantic/dist/semantic.min.js"></script>
+  <script src="semantic/dist/components/accordion.js"></script>
+  <script src="semantic/dist/components/tab.js"></script>
+
+
+  <style type="text/css">
+  body {
+    background-color: #393E46;
+  }
+  p {
+    color: #FFF4E0;
+  } 
+  h1 {
+    color: #FFF4E0;
+  } 
+  a {
+    color: #00ADB5;
+  }
+  i_arrow {
+    color: #f8b500
+  }
+  .ui.menu .item img.logo {
+    margin-right: 1.5em;
+  }
+  .main.container {
+    margin-top: 7em;
+  }
+  .wireframe {
+    margin-top: 2em;
+  }
+  .ui.footer.segment {
+    margin: 5em 0em 0em;
+    padding: 5em 0em;
+  }
+  </style>
+
+  <script language='javascript'>
+
+    $(document).ready(function() {
+      $('.ui.accordion')
+      .accordion();
+    });
+
+$(document).ready(function(){
+    $('.tabular.menu .item').tab();
+});
+
+  </script>
+
+
+</head>
+
+<body>
+<!--<body>-->
+
+
+  <div class="ui fixed inverted menu">
+    <div class="ui container">
+      <a href="https://ktprms23.github.io/index.html" class="header item">
+        <img class="logo" src="./src/cqua_logo_new_non.png">
+        News Scraper
+      </a>
+      <a href="https://ktprms23.github.io/index.html" class="item">Home</a>
+<!--
+      <div class="ui simple dropdown item">
+        Dropdown <i class="dropdown icon"></i>
+        <div class="menu">
+          <a class="item" href="https://semantic-ui.com/examples/fixed.html#">Link Item</a>
+          <a class="item" href="https://semantic-ui.com/examples/fixed.html#">Link Item</a>
+          <div class="divider"></div>
+          <div class="header">Header Item</div>
+          <div class="item">
+            <i class="dropdown icon"></i>
+            Sub Menu
+            <div class="menu">
+              <a class="item" href="https://semantic-ui.com/examples/fixed.html#">Link Item</a>
+              <a class="item" href="https://semantic-ui.com/examples/fixed.html#">Link Item</a>
+            </div>
+          </div>
+          <a class="item" href="https://semantic-ui.com/examples/fixed.html#">Link Item</a>
+        </div>
+      </div>
+-->
+    </div>
+  </div>
+
+
+
+  <div class="ui main text container">
+
+
+<div class="ui top attached tabular menu"  style=" color: #FFF4E0; background-color: #393E46">
+  <a class="item active" data-tab="udn" style=" color: #FFF4E0; background-color: #393E46">udn</a>
+  <a class="item" data-tab="ettoday" style=" color: #FFF4E0; background-color: #393E46">ettoday</a>
+  <a class="item" data-tab="chinatimes" style=" color: #FFF4E0; background-color: #393E46">chinatimes</a>
+</div>
+
+
+<div class="ui bottom attached tab segment active" data-tab="udn" style=" color: #FFF4E0; background-color: #393E46">
+<h1>udn</h1>
+  <div class="ui segment" style=" color: #FFF4E0; background-color: #393E46">
+    <div class="ui accordion" style="width:600px; color: #FFF4E0; background-color: #393E46">
+      <div class="title" style="color: #FFF4E0;"><i class="dropdown icon" style="color: #f8b500;"></i>王金平密宴韓國瑜等人 爭取「韓流」為參選總統鋪路</div>
+      <div class="content">
+        <a href="https://udn.com/news/story/6656/3580466" target="_blank"><blockquote>NEWS link</blockquote></a>
+        <p class="transition hidden"><blockquote>Published time: 2019-01-08T00:16:13</blockquote></p>
+        <p class="transition hidden"><blockquote></blockquote></p>
+      </div>
+      <div class="title" style="color: #FFF4E0;"><i class="dropdown icon" style="color: #f8b500;"></i>九二共識=一國兩制?孫大千批小英靠勇敢的廢話充英雄</div>
+      <div class="content">
+        <a href="https://udn.com/news/story/6656/3580464" target="_blank"><blockquote>NEWS link</blockquote></a>
+        <p class="transition hidden"><blockquote>Published time: 2019-01-08T00:12:12</blockquote></p>
+        <p class="transition hidden"><blockquote>九二共識=一國兩制?孫大千批小英靠勇敢的廢話充英雄<br><br>2019-01-08 08:12 聯合報 記者 聯合報 記者 劉宛琳 ╱即時報導<br><br><br><br>蔡英文總統日前回應大陸國家主席習近平談話時表示，九二共識這樣的名詞已經被北京定義為「一國兩制」，希望台灣所有政黨不要再講九二共識。對此，前立委孫大千在臉書表示，簍子明明是蔡英文捅出來的，現在居然靠著一篇「聽起來很勇敢的廢話」來充英雄好漢？<br><br>首先，孫大千表示，蔡英文在參選2016年總統大選時，說好的維持現狀呢？她徹底破壞了國民黨所留下來的和平穩定和共存雙贏的兩岸現狀，不覺得很對不起台灣的人民嗎？事情搞砸了，就要求國內各政黨要和你同仇敵愾，一致對外，蔡英文難道連一句抱歉都沒有嗎？<br><br>其次，要不是蔡英文在這2年多以來拚老命的和外國勢力掛勾結盟，企圖圍堵打擊中國大陸，硬是把台灣拖進美中對抗的渾水當中，北京政府又怎麼會全面緊縮對台政策，乾脆端出「一國兩制」來取代「九二共識」了呢？<br><br>孫大千說，蔡英文如此嚴辭批判北京政府，的確可以為自己贏得很高的網路聲量和支持掌聲，也許還可以協助她脫離困境，順利獲得民進黨2020年總統大選的連任提名。但是批判完了之後呢？台灣和中國大陸的關係究竟應該何去何從呢？蔡英文恐怕也是一籌莫展吧？總不可能一直「買空賣空」吧？</blockquote></p>
+      </div>
+      <div class="title" style="color: #FFF4E0;"><i class="dropdown icon" style="color: #f8b500;"></i>「九二共識」藍營尷尬各表...網路先開戰</div>
+      <div class="content">
+        <a href="https://udn.com/news/story/12726/3579790" target="_blank"><blockquote>NEWS link</blockquote></a>
+        <p class="transition hidden"><blockquote>Published time: 2019-01-08T00:00:00</blockquote></p>
+        <p class="transition hidden"><blockquote>「九二共識」藍營尷尬各表...網路先開戰<br><br>2019-01-08 08:00 聯合報 記者 聯合報 記者 程嘉文 ／報導<br><br><br><br>中共總書記習近平拋出習五點，再提「一國兩制」，展現促統企圖心。圖／聯合報系資料照片 分享 facebook<br><br>1月2日，大陸國家主席習近平在北京人民大會堂主持「《告台灣同胞書》發表40周年紀念會」，針對台灣問題提出了所謂「習五點」政策宣示。習近平重申「海峽兩岸同屬一個中國，共同努力謀求國家統一的九二共識」，並首度提出「探索『兩制』台灣方案」，並且批評「制度不同，不是統一的障礙，更不是分裂的藉口」。<br><br>習再提「一國兩制」不承諾放棄武力<br><br>習五點包括：一、攜手推動民族復興，實現和平統一目標。二、探索「兩制」台灣方案，豐富和平統一實踐。三、堅持一個中國原則，維護和平統一前景。四、深化兩岸融合發展，夯實和平統一基礎。五、實現同胞心靈契合，增進和平統一認同。<br><br>習近平上任後，再度對台重提先前胡錦濤時代罕用的「一國兩制」，這次並且首度提到，要探索合用於台灣的兩制方案。強調「中國人不打中國人」，但不承諾放棄使用武力，保留針對外部勢力干涉與台獨分裂行為，採取一切必要措施的選項。除了再度喊話兩岸共同市場，歡迎台灣青年到大陸築夢，也倡議「兩岸各政黨、各界別推舉代表性人士，就兩岸關係和民族未來開展廣泛深入的民主協商，就推動兩岸關係和平發展達成制度性安排」。<br><br>習更強硬具體 展現促統企圖心<br><br>總之，雖然中共對台政策基調從來沒變，但比起2008年《告台灣同胞書》30周年的胡錦濤談話，可以看出北京當局把促統說得更強硬、更具體，更強調推動統一的必要性，甚至可以嗅出，習近平想在自己在位任內完成「大業」的企圖心。<br><br>中共總書記習近平將九二共識定義為一個中國、一國兩制，網友整理國民黨回應，引發熱烈討論。圖／取自網路 分享 facebook<br><br>一中各表被一國兩制取代 藍尷尬<br><br>對於九二共識的內容，兩岸向來各自表述。陸方強調「一中」，藍營則強調「各表」。這次習近平對九二共識的詮釋，雖然沒有超越以往的範疇，但因演講中多次強調一國兩制是統一的方案，更放出不排除動武的狠話。因此「聰明」的綠營，立刻將其簡化為「九二共識就是一國兩制」，當然更不可能有「各表」。對一路堅持「九二共識，一中各表」的藍營，當然倍感尷尬。<br><br>國民黨主席吳敦義指蔡英文選擇忘掉九二共識，「有夠荒唐」。圖／聯合報系資料照片 分享 facebook<br><br>吳敦義隔天回應：九二共識就是一中各表<br><br>國民黨到第二天才發聲明指出，「中華民國是一個主權獨立的國家」，「一國兩制的台灣方案」並非九二共識內涵。目前兩岸處於分治狀態，現階段一國兩制恐難獲得台灣多數民意支持。黨主席吳敦義4日說，習近平日前談話內容，並非九二共識當年的內容，「九二共識，就是一中各表」。<br><br>前總統馬英九於臉書批評因為蔡拒絕「九二共識」造成今天的困局，卻還要求別人也不能談。圖／截自馬英九臉書 分享 facebook<br><br>馬英九：習對九二共識跟我們有出入<br><br>前總統馬英九則表示，習近平對九二共識的看法「跟我們還是有一些出入」，國民黨必須再把話說得更清楚，至於一國兩制，在台灣沒有市場。馬英九說，台灣應該回到憲法增修條文規定，也就是預設未來統一的可能性，但一定要有時間與條件。<br><br>朱立倫：蔡無權要求不講九二共識<br><br>相較之下，更早就表態參加初選的前新北市長朱立倫，則飽遭網民的砲火。由於蔡總統在5日表示，「所有政黨都應拒絕一國兩制，不談九二共識」，朱立倫於6日上午在臉書發文，「您不承認九二共識，但請不要刻意曲解九二共識的內涵，更無權要求所有國人隨您起舞，將兩岸推向動盪。」「民進黨可以有台獨黨綱，賴清德院長可以公然主張台獨，國民黨當然可以堅持九二共識，您無權要求各政黨不要再講九二共識！」<br><br>新北市前市長朱立倫近日出現大陸央視歷史紀錄片談「九二共識」。記者陳柏亨／翻攝 分享 facebook<br><br>朱立倫反擊蔡英文 臉書被灌爆<br><br>沒想到文章一出，引發噓聲卻大於掌聲。到昨晚為止，文章共有兩萬八千多個「讚」，但是「怒」也高達兩萬四千個。被留言一萬八千多則，也以嘲諷他賣台居多。民進黨前立委陳其邁，也放下近日努力經營的「暖男」形象，挖苦朱立倫整篇都是廢話，「母湯啦」（閩南語「不行」諧音）。<br><br>朱立倫在當天深夜再發文表示：「我始終相信，在台灣這片土地上的你我，不分藍、綠、還是白，對這片家園的熱愛都不致有差別，不同的只是，我們對怎樣能讓台灣利益最大化的想法及做法不同而已。」這次則獲得一萬個「讚」與五千個「怒」。<br><br>綠營支持力量解放 找到攻擊出口<br><br>各方砲火集中於朱立倫，當然不是他的發言和其他藍營天王有多大差異，而是綠營支持力量經歷過去一個多月的沈悶，如今拜習近平的「解救」，終於重獲生氣，找到攻擊的出口。就此而言，也許朱立倫反而應該對於「敵人的重視」感到安慰？<br><br>中共總書記習近平(右)拋出習五點，蔡英文總統(左)表示不接受九二共識，也絕不接受一國兩制，讓綠營支持力量找到攻擊出口。路透、記者曾吉松／攝影 分享 facebook<br><br>蔣萬安肯定蔡英文四必須 捲進風暴<br><br>相較於國民黨中央與幾位前輩的「不變應萬變」，立委蔣萬安則是意外被捲進風暴中心。<br><br>1月3日，蔣萬安在年代電視台的政論節目上，表示蔡英文總統的「四個必須」是對的，並表示不能接受九二共識就是一國兩制。這段話被媒體轉後，逐漸變成了萬安「力挺」蔡英文四個必須，甚至出現「不接受九二共識」。新聞逐漸發酵，6日終於爆發。<br><br>許多深藍支持者大罵蔣萬安：「對得起祖先？」「回去姓章吧！」反之，替他叫好的人，例如近年與獨派關係密切的王丹讚揚「對得起蔣家」，則泰半是黃鼠狼給雞拜年，巴不得他在藍營中更不是人。<br><br>蔣萬安：支持一中各表 反對一國兩制<br><br>眼看群情洶洶，蔣萬安昨天一早出面表態：自己反對一國兩制，台灣大多數民眾也無法接受；不論誰當總統都必須依照中華民憲法，捍衛中華民國的主權和存在；九二共識確實存在，也是兩岸交流的基礎，否則過去兩岸是如何交流的？因此他無法接受蔡英文總統「台灣從未接受九二共識」的說法，也支持九二共識的核心是「一中各表」，一中是中華民國，基礎是中華民國憲法，實踐的是兩岸人民關係條例。<br><br>國民黨立委蔣萬安。圖／聯合報系資料照片 分享 facebook<br><br>肯定四個必須 蔣被譏諷涉世未深<br><br>事實上，早在1月1日蔡總統宣布「四必須」的當天，蔣萬安在中天的政論節目，就已經作過類似的發言，當時包括沈富雄等其他來賓，也都說「四必須」根本毋庸置疑。不過過了兩天，在屬性不同的政論節目上發言，在媒體即時新聞當道，慣常對標題「簡化」與「強化」的情況下，最後就一發不可收拾。前立委蔡正元就挖苦蔣萬安：蔡英文自己對「四必須」都往往是說得到做不到，你卻急著肯定，根本是「涉世未深」。<br><br>對蔣萬安這位身世、外型、學經歷俱佳的明日之星來說，這次想必大有不小心摸到裸露電線的感受。至於被狠狠震撼一次之後，能否有所調整、趨吉避凶？就是「準天王」是否能夠蛻變為「真天王」的關鍵。<br><br>台大學政治系教授、孫文學校總校長張亞中。圖／聯合報系資料照片 分享 facebook<br><br>張亞中趁勢推銷兩岸和平協定<br><br>當初替國民黨前主席洪秀柱提出「一中同表」主張的「孫文學校」總校長張亞中，昨天宣布要參加國民黨內的總統提名初選。張亞中說，台灣面對中共提出一國兩制，不能一味閃避，而要毫不畏懼跟北京對話。他主張以「兩岸兄弟一家親」的定位，即「兩岸同屬整個中國，互為憲政分治政府」的「分治不分裂」立場，與北京簽署「兩岸和平協定」。<br><br>雖然張亞中強調，會得到洪秀柱的支持，「她打上半場，我打下半場」，前立委邱毅與蔡正元也表態相挺。但目前為止，並沒有「重量級諸侯」加盟，在網路上引發的回響也很小。</blockquote></p>
+      </div>
+    </div>  </div>
+</div>
+
+
+<div class="ui bottom attached tab segment" data-tab="ettoday" style=" color: #FFF4E0; background-color: #393E46">
+<h1>ettoday</h1>
+  <div class="ui segment" style=" color: #FFF4E0; background-color: #393E46">
+    <div class="ui accordion" style="width:600px; color: #FFF4E0; background-color: #393E46">
+      <div class="title" style="color: #FFF4E0;"><i class="dropdown icon" style="color: #f8b500;"></i>「抱歉我沒空來拿」訂10份早餐放鴿棄單 老闆淚等客人隔天現身</div>
+      <div class="content">
+        <a href="http://www.ettoday.net/news/20190108/1350667.htm" target="_blank"><blockquote>NEWS link</blockquote></a>
+        <p class="transition hidden"><blockquote>Published time: 2019-01-08T13:00:00</blockquote></p>
+        <p class="transition hidden"><blockquote>▲客人訂購10份早餐，卻沒有現身，早餐店老闆超怒。（圖／翻攝自爆怨公社）<br><br>生活中心／綜合報導<br><br>怎麼又有這種奧客！一名早餐店老闆表示，客人訂了10份早餐後沒來拿，卻什麼也沒有說，隔天對方才到店內一副毫不在乎的樣子：「抱歉，我昨天沒空來拿！」讓他超傻眼，到底怎麼會有這種人。<br><br>早餐店老闆在臉書社團「爆怨公社」發文表示，這年頭生意難做，沒想到卻還是遇到客人訂了10份餐，卻沒有來拿，「你預訂了10份早餐不來拿！為了你的早餐我又不敢賣給別人，明明店就已經打烊了，可是我還要待在店等你來，怕你特地前來拿不到早餐。」<br><br>原PO說，等到近中午都沒人拿，他只好分送給親戚朋友享用，沒想到對方這時就來了，「今天你來的時候卻只說了：抱歉，我昨天沒空來拿，所以就沒來拿早餐了！」讓他超傻眼，怎會有這種客人啊？<br><br>文章一出，也讓許多網友完全無法接受，蓋了200多層樓留言，「滿過分的」、「至少要先電話告知啊，店家還能賣，一句抱歉算什麼」、「列入黑名單」、「我才不管你有沒有空來拿，重點錢要付啊」、「真是爛人」、「沒空也不打電話」、「小生意來個十幾個人這樣做店家就倒了」。<br><br>還有網友表示：「真的要先收錢，不然別做這種生意了」、「可以告他詐欺罪」、「先結帳，這樣客人就算沒空來拿也不怕」、「以後熟客再給他先做起來，沒來拿一律收錢，當東西都不用成本的嗎」、「讓人生氣！切記先收錢」、「下次先收訂金」、「這種奧客列黑名單，除非先給錢」。</blockquote></p>
+      </div>
+      <div class="title" style="color: #FFF4E0;"><i class="dropdown icon" style="color: #f8b500;"></i>影／第一金全球人工智慧基金14日發行 迎AI大爆發</div>
+      <div class="content">
+        <a href="https://www.ettoday.net/news/20190108/1350229.htm" target="_blank"><blockquote>NEWS link</blockquote></a>
+        <p class="transition hidden"><blockquote>Published time: 2019-01-08T13:00:00</blockquote></p>
+        <p class="transition hidden"><blockquote>記者周康玉／台北報導<br><br>2018年全球主要國家股市全數下跌，然而，ROBO AI指數卻逆勢大漲21.55%，掌握這一波AI先行者的豐收機會，第一金投信預計在1月14日募集旗下第4檔AI系列基金。<br><br>第一金全球AI人工智慧基金經理人陳世杰表示，AI人工智慧應用百花齊放，舉凡：智慧語音、智能理財、智慧住宅、智慧捷運網絡、智能家電管理、娛樂平台、無人工廠與無人商店等，無所不包。<br><br>陳世杰表示，AI不只改變各行各業的商業模式，更為產業帶來加值的效益。如：傳統零售業的沃爾瑪、PC霸主的微軟，都積極運用AI華麗轉身。<br><br>第一金投信自2015年起先後發行全台首檔AI機器人、AI FinTech金融科技與AI精準醫療基金後，將在1月14日，發行全台首檔AI人工智慧基金，完整涵蓋從上游技術到中下游應用的AI產業鏈。<br><br>陳世杰認為，由於AI技術的成熟化發展，主導PC產業的英特爾和微軟，都挾著技術優勢，引領風騷20年；提供AI技術的公司，未來表現也將大放異彩，成為全球科技業的佼佼者。<br><br>陳世杰表示，相較於前3檔AI基金，主要著重在應用面，這一檔將專注在技術與軟體的層次，投資範圍包括：5G、雲端、大數據收集與分析、運算、感知元件、機器學習、系統軟體平台等，而且7成以上都是大型股，再搭配3成的中小型股，大小通吃。<br><br>此外，這檔基金將以ROBO AI指數作為參考指標，並依據AI營收占比、企業應用AI占比、AI領域市場地位等指標，建立一套獨特的AI Score股票評選模型，將經理人的主動選股能力，結合參考指數的被動式操作，靈活布局，全面掌握AI先行者的豐收機會。<br><br>▼AI人工智慧應用百花齊放。（圖／達志影像）</blockquote></p>
+      </div>
+      <div class="title" style="color: #FFF4E0;"><i class="dropdown icon" style="color: #f8b500;"></i>快訊／金正恩應習近平邀約 1/7-1/10確定訪陸4天「過生日」</div>
+      <div class="content">
+        <a href="http://www.ettoday.net/news/20190108/1350679.htm" target="_blank"><blockquote>NEWS link</blockquote></a>
+        <p class="transition hidden"><blockquote>Published time: 2019-01-08T13:00:00</blockquote></p>
+        <p class="transition hidden"><blockquote>▲金正恩確定在1/7至1/10訪中國大陸，圖為先前他與習近平會面。（圖／路透社）<br><br>記者錢玉紘、黃心瑀／綜合外電報導<br><br>中共中央對外聯絡部新聞發言人1月8日在北京宣佈，應中共中央總書記、國家主席習近平邀請，朝鮮勞動黨委員長、國務委員會委員長金正恩1月7日至10日前往中國進行訪問。先前日、韓媒體報導，中國大陸與北韓鄰接的遼寧丹東地區在7日下午突然出現了眾多的警力戒備。<br><br>韓聯社報導提到，除了金正恩之外，北韓第一夫人李雪主也同行；另外，朝鮮勞動黨中央委員會副委員長金英哲（김영철）、金正恩的親信李洙墉（리수용）、朴泰成（박태성）、現任朝鮮勞動黨中央政治局委員和外務相的李勇浩（리용호），以及在2018年時出任人民武力部、被視為核子專家的努光鐵（노광철）也一同前往參與這次的北京行。<br><br>韓聯社先前也引述消息來源指出，一輛載著「北韓高層官員」的列車已進入中國，該輛列車在當地時間7日晚間10點15分左右經過丹東。韓聯社報導還提到，目前丹東當地和鴨綠江周邊戒備森嚴，附近旅館內，面對鴨綠江的房間也不能訂了，更有網友在微博指出，「丹東某街道車流突然轉向，不知道是不是和這件事有關」。<br><br>NHK報導則提到，北韓和中國大陸邊境的橋樑附近的確有大批警力戒備。這是金正恩在一年之內第4次與中國國家主席習近平會面，去年兩人共會面了3次，前兩次都是事後才發布正式消息。值得一提的是，今天1月8日是金正恩的生日，他也許會選在中國度過。<br><br>韓聯社報導，金正恩和習近平的會面也可能是為第二次「川習會」做相關準備，美國總統川普先前表示這場會面「很快就會發生」，更在6日提到，在「不久的將來」就會宣布會面地點。</blockquote></p>
+      </div>
+      <div class="title" style="color: #FFF4E0;"><i class="dropdown icon" style="color: #f8b500;"></i>詭異怪風吹往昆士蘭！僧帽水母暴增猛漂海岸 1週內萬人遭蜇傷...沙灘急關閉</div>
+      <div class="content">
+        <a href="https://www.ettoday.net/news/20190108/1350641.htm" target="_blank"><blockquote>NEWS link</blockquote></a>
+        <p class="transition hidden"><blockquote>Published time: 2019-01-08T13:00:00</blockquote></p>
+        <p class="transition hidden"><blockquote>▲藍瓶僧帽水母的觸手有刺絲胞，遇到刺激時會釋放的有毒的刺針。（示意圖／記者王兆麟翻攝）<br><br>國際中心／綜合報導<br><br>澳洲東北的昆士蘭州（Queensland）海岸遭到僧帽水母（Portuguese man o' war jellyfish）入侵，上週已有超過1萬3000人遭蜇傷，光是週末就有逾2500人就醫治療，當局緊急關閉海灘避免傷害擴大。研究人員初步調查後認為，近期熱浪襲擊可能是水母大量發生的原因，不過更重要的因素是有一股異常的風將這些水母吹往昆士蘭海灘。<br><br>海岸防衛協會「衝浪救生組織」（Surf Life Saving）表示，上週末被水母蜇傷的人數幾乎是先前預估值的2倍以上，其中也包括了專業的救生員。英國《衛報》指出，昆士蘭州自去年12月1日到今年1月7日約一個月內，就有逾2萬3000人就醫治療蜇傷，而去年同期還不到7000人。<br><br>▲澳洲每年都有許多僧帽水母造訪海灘。（示意圖／CFP）<br><br>澳洲聯邦科學與工業研究組織的海洋生物研究員葛雪溫（Lisa Gershwin）表示，水母和其他物種不同，很容易受到生態系統變化刺激，所以會對比往常更溫暖的天氣做出反應。雖然目前仍缺乏長期數據，一些科學家指出氣候變化導致水母大量繁殖，但更多研究人員認為水母的異常增值正反映了人類引起的汙染、過度捕撈和海水增溫的問題。<br><br>澳洲皇家全科醫師學會（Royal Australian College of General Practitioners）指出，每年東岸都會發生大約1萬起僧帽水母螫人事件。澳大利亞環保主義者表示，政府應該要負起責任，缺乏規畫處理澳洲海岸線周圍海域的素料汙染，而去年10月保守的執政黨拒絕在2050年放棄媒電後，也面臨更多破壞環境的批評。</blockquote></p>
+      </div>
+      <div class="title" style="color: #FFF4E0;"><i class="dropdown icon" style="color: #f8b500;"></i>「女厲鬼」超強勁浪叫...深夜迴盪全社區！網笑歪：土地公鎮不住</div>
+      <div class="content">
+        <a href="http://www.ettoday.net/news/20190108/1350665.htm" target="_blank"><blockquote>NEWS link</blockquote></a>
+        <p class="transition hidden"><blockquote>Published time: 2019-01-08T13:00:00</blockquote></p>
+        <p class="transition hidden"><blockquote><br><br><br><br>▲深夜社區傳來女子浪叫，土地公可能都被吵醒了。（圖／翻攝自臉書「爆笑公社」）<br><br>網搜小組／綜合報導<br><br>在夜深人靜的時候發生親密關係並沒有問題，但是喊得太大聲讓所有人都聽到就很糗了，有網友在臉書社團「爆笑公社」PO出一支影片，只見畫面是一處安靜的住宅區，但卻有一名女性發出近似淒厲的「叫床聲」，聲音大到全社區都聽見，影片讓網友全笑翻。<br><br><br><br>網友PO出這支1分07秒的影片，畫面中可以看到是在一個住宅區，已經是深夜，附近的小巷弄都非常安靜，因此可以清楚聽到一名女子發出高分貝呻吟聲，「啊」、「喔」等聲音完全沒有間斷，仔細一聽是在叫床，雖然沒有說任何一句話，但仍從叫聲中就能感受她的愉悅和爽快，還大方地跟街坊鄰居分享，聲音實在太大，一打開窗戶就聽得很清楚。<br><br><br><br>拍攝影片的網友還將鏡頭拉近，似乎是在尋找哪一家大半夜的玩這麼爽，影片中也可以看到，住宅區的一樓有一個小小的土地公廟，該網友也在PO影片時提到「厲鬼在叫，土地公鎮都鎮不住」，讓大家全笑瘋。<br><br>網友留言調侃，「蠻會叫的」、「肯定是用金剛杵驅魔」、「果然是厲鬼，太厲害了，一個鬼叫聲害全社區男生都硬了，這樣會弄出好幾條人命」、「真會叫，還有回音呢」、「這個聲音，過程應該很猛」、「里長里長你的擴音器忘了關」、「此女有冤啊」。<br><br>▼影片取自YouTube，如遭刪除請見諒。</blockquote></p>
+      </div>
+      <div class="title" style="color: #FFF4E0;"><i class="dropdown icon" style="color: #f8b500;"></i>可成12月營收大減三成 全年營收創新高</div>
+      <div class="content">
+        <a href="https://www.ettoday.net/news/20190108/1350658.htm" target="_blank"><blockquote>NEWS link</blockquote></a>
+        <p class="transition hidden"><blockquote>Published time: 2019-01-08T13:00:00</blockquote></p>
+        <p class="transition hidden"><blockquote>▲iPhone賣不好，蘋概股12月營收幾乎全倒。（圖／資料照）<br><br>記者周康玉／台北報導<br><br>可成（2474）公布上月（12）月營收為66.98億元，較11月大減30.4%，年減28%，是近九個月來新低；然而上半年營收表現優異，累計去（2018）年全年度營收為954.16億元，創歷史新高。<br><br>可成是iPhone機殼主力供應商之一，隨著去年新機銷售不如預期，可成從11月以來營收不增反減25%，12月繼續減少30%，不僅旺季不旺，更拖累全年度僅2.3%小幅成長。<br><br>可成表示，去年算是積極擴大產品與客戶版圖的一年，但受到貿易戰影響，市場需求難以預估，導致整體需求未成長。<br><br>面對大環境的不確定，可成表示，將持續導入新客戶、新產品，並加深自動化及智慧製造提高營運效率、加強成本費用管控，優化生產效率。<br><br>然而可成預估，今年第1季將延續去年第4季疲軟態勢，營運會比上季更淡，由於需求能見度仍充滿不確定性，將保守看待今年景氣。</blockquote></p>
+      </div>
+      <div class="title" style="color: #FFF4E0;"><i class="dropdown icon" style="color: #f8b500;"></i>ETtoday新聞雲</div>
+      <div class="content">
+        <a href="https://www.ettoday.net/news/news-list-2019-01-08-17.htm" target="_blank"><blockquote>NEWS link</blockquote></a>
+        <p class="transition hidden"><blockquote>Published time: 2019-01-08T00:00:00</blockquote></p>
+        <p class="transition hidden"><blockquote>每周六21-22點鎖定《ETtoday新聞雲》，全新節目《慧眼看天下》帶您掌握國際!<br><br>加入降價立刻通知你，還有機會抽iPhone唷！現在就抽！</blockquote></p>
+      </div>
+      <div class="title" style="color: #FFF4E0;"><i class="dropdown icon" style="color: #f8b500;"></i>詭異怪風吹往昆士蘭！僧帽水母暴增猛漂海岸 1週內萬人遭蜇傷...沙灘急關閉</div>
+      <div class="content">
+        <a href="https://pets.ettoday.net/news/1350641" target="_blank"><blockquote>NEWS link</blockquote></a>
+        <p class="transition hidden"><blockquote>Published time: 2019-01-08T00:55:00+08:00</blockquote></p>
+        <p class="transition hidden"><blockquote>▲藍瓶僧帽水母的觸手有刺絲胞，遇到刺激時會釋放的有毒的刺針。（示意圖／記者王兆麟翻攝）<br><br>國際中心／綜合報導<br><br>澳洲東北的昆士蘭州（Queensland）海岸遭到僧帽水母（Portuguese man o' war jellyfish）入侵，上週已有超過1萬3000人遭蜇傷，光是週末就有逾2500人就醫治療，當局緊急關閉海灘避免傷害擴大。研究人員初步調查後認為，近期熱浪襲擊可能是水母大量發生的原因，不過更重要的因素是有一股異常的風將這些水母吹往昆士蘭海灘。<br><br>海岸防衛協會「衝浪救生組織」（Surf Life Saving）表示，上週末被水母蜇傷的人數幾乎是先前預估值的2倍以上，其中也包括了專業的救生員。英國《衛報》指出，昆士蘭州自去年12月1日到今年1月7日約一個月內，就有逾2萬3000人就醫治療蜇傷，而去年同期還不到7000人。<br><br>▲澳洲每年都有許多僧帽水母造訪海灘。（示意圖／CFP）<br><br>澳洲聯邦科學與工業研究組織的海洋生物研究員葛雪溫（Lisa Gershwin）表示，水母和其他物種不同，很容易受到生態系統變化刺激，所以會對比往常更溫暖的天氣做出反應。雖然目前仍缺乏長期數據，一些科學家指出氣候變化導致水母大量繁殖，但更多研究人員認為水母的異常增值正反映了人類引起的汙染、過度捕撈和海水增溫的問題。<br><br>澳洲皇家全科醫師學會（Royal Australian College of General Practitioners）指出，每年東岸都會發生大約1萬起僧帽水母螫人事件。澳大利亞環保主義者表示，政府應該要負起責任，缺乏規畫處理澳洲海岸線周圍海域的素料汙染，而去年10月保守的執政黨拒絕在2050年放棄媒電後，也面臨更多破壞環境的批評。</blockquote></p>
+      </div>
+      <div class="title" style="color: #FFF4E0;"><i class="dropdown icon" style="color: #f8b500;"></i>可成12月營收大減三成 全年營收創新高</div>
+      <div class="content">
+        <a href="http://www.ettoday.net/news/20190108/1350658.htm" target="_blank"><blockquote>NEWS link</blockquote></a>
+        <p class="transition hidden"><blockquote>Published time: 2019-01-08T13:00:00</blockquote></p>
+        <p class="transition hidden"><blockquote>▲iPhone賣不好，蘋概股12月營收幾乎全倒。（圖／資料照）<br><br>記者周康玉／台北報導<br><br>可成（2474）公布上月（12）月營收為66.98億元，較11月大減30.4%，年減28%，是近九個月來新低；然而上半年營收表現優異，累計去（2018）年全年度營收為954.16億元，創歷史新高。<br><br>可成是iPhone機殼主力供應商之一，隨著去年新機銷售不如預期，可成從11月以來營收不增反減25%，12月繼續減少30%，不僅旺季不旺，更拖累全年度僅2.3%小幅成長。<br><br>可成表示，去年算是積極擴大產品與客戶版圖的一年，但受到貿易戰影響，市場需求難以預估，導致整體需求未成長。<br><br>面對大環境的不確定，可成表示，將持續導入新客戶、新產品，並加深自動化及智慧製造提高營運效率、加強成本費用管控，優化生產效率。<br><br>然而可成預估，今年第1季將延續去年第4季疲軟態勢，營運會比上季更淡，由於需求能見度仍充滿不確定性，將保守看待今年景氣。</blockquote></p>
+      </div>
+      <div class="title" style="color: #FFF4E0;"><i class="dropdown icon" style="color: #f8b500;"></i>ETtoday新聞雲</div>
+      <div class="content">
+        <a href="https://www.ettoday.net/news/news-list-2019-01-08-21.htm" target="_blank"><blockquote>NEWS link</blockquote></a>
+        <p class="transition hidden"><blockquote>Published time: 2019-01-08T00:00:00</blockquote></p>
+        <p class="transition hidden"><blockquote>每周六21-22點鎖定《ETtoday新聞雲》，全新節目《慧眼看天下》帶您掌握國際!<br><br>加入降價立刻通知你，還有機會抽iPhone唷！現在就抽！</blockquote></p>
+      </div>
+      <div class="title" style="color: #FFF4E0;"><i class="dropdown icon" style="color: #f8b500;"></i>詭異怪風吹往昆士蘭！僧帽水母暴增猛漂海岸 1週內萬人遭蜇傷...沙灘急關閉</div>
+      <div class="content">
+        <a href="http://www.ettoday.net/news/20190108/1350641.htm" target="_blank"><blockquote>NEWS link</blockquote></a>
+        <p class="transition hidden"><blockquote>Published time: 2019-01-08T13:00:00</blockquote></p>
+        <p class="transition hidden"><blockquote>▲藍瓶僧帽水母的觸手有刺絲胞，遇到刺激時會釋放的有毒的刺針。（示意圖／記者王兆麟翻攝）<br><br>國際中心／綜合報導<br><br>澳洲東北的昆士蘭州（Queensland）海岸遭到僧帽水母（Portuguese man o' war jellyfish）入侵，上週已有超過1萬3000人遭蜇傷，光是週末就有逾2500人就醫治療，當局緊急關閉海灘避免傷害擴大。研究人員初步調查後認為，近期熱浪襲擊可能是水母大量發生的原因，不過更重要的因素是有一股異常的風將這些水母吹往昆士蘭海灘。<br><br>海岸防衛協會「衝浪救生組織」（Surf Life Saving）表示，上週末被水母蜇傷的人數幾乎是先前預估值的2倍以上，其中也包括了專業的救生員。英國《衛報》指出，昆士蘭州自去年12月1日到今年1月7日約一個月內，就有逾2萬3000人就醫治療蜇傷，而去年同期還不到7000人。<br><br>▲澳洲每年都有許多僧帽水母造訪海灘。（示意圖／CFP）<br><br>澳洲聯邦科學與工業研究組織的海洋生物研究員葛雪溫（Lisa Gershwin）表示，水母和其他物種不同，很容易受到生態系統變化刺激，所以會對比往常更溫暖的天氣做出反應。雖然目前仍缺乏長期數據，一些科學家指出氣候變化導致水母大量繁殖，但更多研究人員認為水母的異常增值正反映了人類引起的汙染、過度捕撈和海水增溫的問題。<br><br>澳洲皇家全科醫師學會（Royal Australian College of General Practitioners）指出，每年東岸都會發生大約1萬起僧帽水母螫人事件。澳大利亞環保主義者表示，政府應該要負起責任，缺乏規畫處理澳洲海岸線周圍海域的素料汙染，而去年10月保守的執政黨拒絕在2050年放棄媒電後，也面臨更多破壞環境的批評。</blockquote></p>
+      </div>
+      <div class="title" style="color: #FFF4E0;"><i class="dropdown icon" style="color: #f8b500;"></i>ETtoday新聞雲</div>
+      <div class="content">
+        <a href="https://www.ettoday.net/news/news-list-2019-01-08-36.htm" target="_blank"><blockquote>NEWS link</blockquote></a>
+        <p class="transition hidden"><blockquote>Published time: 2019-01-08T00:00:00</blockquote></p>
+        <p class="transition hidden"><blockquote>每周六21-22點鎖定《ETtoday新聞雲》，全新節目《慧眼看天下》帶您掌握國際!<br><br>加入降價立刻通知你，還有機會抽iPhone唷！現在就抽！</blockquote></p>
+      </div>
+      <div class="title" style="color: #FFF4E0;"><i class="dropdown icon" style="color: #f8b500;"></i>RIMOWA新店3月登場！換代理商重回台灣 | ET Fashion</div>
+      <div class="content">
+        <a href="https://www.ettoday.net/news/20190108/1350648.htm" target="_blank"><blockquote>NEWS link</blockquote></a>
+        <p class="transition hidden"><blockquote>Published time: 2019-01-08T13:00:00</blockquote></p>
+        <p class="transition hidden"><blockquote><br><br>▲RIMOWA無縫接軌，再度回到台灣市場。<br><br><br><br>記者張妤瑄／台北報導<br><br>德國精品行李箱品牌RIMOWA，2018年11月底驚爆全台收店，且原廠已近1年未供貨，讓台灣只得用存貨賣，近日存貨也見底，有些百貨專櫃空空如也，有些則出現2個櫃姐顧店內一只行李箱的奇特畫面。但好消息是，RIMOWA台灣代理權由精品代理商美之心（MINOSHIN）接手，幾乎無縫接軌台灣市場。<br><br>▲RIMOWA在2018年11月底驚傳台灣收攤消息，讓消費者錯愕。（圖／翻攝官網）<br><br><br><br>RIMOWA目前擁有的專賣店是前朝代理商慶真國際所有，去年11月就預告將以仁愛創始店當作維修中心，其餘百貨櫃點會陸續關掉。由美之心接手後，專賣店也將重新洗牌，據了解2019年將在北、中、南陸續開幕新店面，且最快3月就有新店登場。<br><br>另外，消費者最關心的價格方面未定，未來與德國原廠的價差為何，也要靜待揭曉。<br><br>▲RIMOWA仁愛創始店目前是維修中心。（圖／翻攝官網）<br><br><br><br>美之心執行長陳冠燁家族自1982年起從事國際精品銷售，迄今已有36年，除2019年新加入國際精品巨頭LVMH集團旗下的RIMOWA外，還坐擁有超過160年歷史的比利時皮具DELVAUX、法國針織女王SONIA RYKIEL、義大利羊絨毛王BRUNELLO CUCINELLI的代理權。<br><br>加上RIMOWA後，美之心目前擁有4個國際品牌的台灣代理權，在全台百貨共有7個專櫃，分別是MINOSHIN複合式精品店在微風信義、復興SOGO、台中新光三越，及SONIA RYKIEL台中大遠百店，BRUNELLO CUCINELLI在BELLAVITA、台中大遠百，及DELVAUX在BELLAVITA的專櫃。<br><br>▲加入RIMOWA後，美之心擁有4個國際級品牌的台灣代理權。（圖／翻攝官網）<br><br><br><br>►►看更多時尚資訊分享，快來下載星光雲App<br><br>另外，有服飾代理經驗的高林實業股份有限公司7日也拍板定案入股美之心，成為幕後大股東，該公司目前在台代理香港服飾品牌G2000、南韓小眾包款品牌KWANI。</blockquote></p>
+      </div>
+      <div class="title" style="color: #FFF4E0;"><i class="dropdown icon" style="color: #f8b500;"></i>ETtoday新聞雲</div>
+      <div class="content">
+        <a href="http://www.ettoday.net/news/news-list-2019-01-08-9.htm" target="_blank"><blockquote>NEWS link</blockquote></a>
+        <p class="transition hidden"><blockquote>Published time: 2019-01-08T00:00:00</blockquote></p>
+        <p class="transition hidden"><blockquote>每周六21-22點鎖定《ETtoday新聞雲》，全新節目《慧眼看天下》帶您掌握國際!<br><br>加入降價立刻通知你，還有機會抽iPhone唷！現在就抽！</blockquote></p>
+      </div>
+      <div class="title" style="color: #FFF4E0;"><i class="dropdown icon" style="color: #f8b500;"></i>「抱歉我沒空來拿」訂10份早餐放鴿棄單 老闆淚等客人隔天現身</div>
+      <div class="content">
+        <a href="https://www.ettoday.net/news/20190108/1350667.htm" target="_blank"><blockquote>NEWS link</blockquote></a>
+        <p class="transition hidden"><blockquote>Published time: 2019-01-08T13:00:00</blockquote></p>
+        <p class="transition hidden"><blockquote>▲客人訂購10份早餐，卻沒有現身，早餐店老闆超怒。（圖／翻攝自爆怨公社）<br><br>生活中心／綜合報導<br><br>怎麼又有這種奧客！一名早餐店老闆表示，客人訂了10份早餐後沒來拿，卻什麼也沒有說，隔天對方才到店內一副毫不在乎的樣子：「抱歉，我昨天沒空來拿！」讓他超傻眼，到底怎麼會有這種人。<br><br>早餐店老闆在臉書社團「爆怨公社」發文表示，這年頭生意難做，沒想到卻還是遇到客人訂了10份餐，卻沒有來拿，「你預訂了10份早餐不來拿！為了你的早餐我又不敢賣給別人，明明店就已經打烊了，可是我還要待在店等你來，怕你特地前來拿不到早餐。」<br><br>原PO說，等到近中午都沒人拿，他只好分送給親戚朋友享用，沒想到對方這時就來了，「今天你來的時候卻只說了：抱歉，我昨天沒空來拿，所以就沒來拿早餐了！」讓他超傻眼，怎會有這種客人啊？<br><br>文章一出，也讓許多網友完全無法接受，蓋了200多層樓留言，「滿過分的」、「至少要先電話告知啊，店家還能賣，一句抱歉算什麼」、「列入黑名單」、「我才不管你有沒有空來拿，重點錢要付啊」、「真是爛人」、「沒空也不打電話」、「小生意來個十幾個人這樣做店家就倒了」。<br><br>還有網友表示：「真的要先收錢，不然別做這種生意了」、「可以告他詐欺罪」、「先結帳，這樣客人就算沒空來拿也不怕」、「以後熟客再給他先做起來，沒來拿一律收錢，當東西都不用成本的嗎」、「讓人生氣！切記先收錢」、「下次先收訂金」、「這種奧客列黑名單，除非先給錢」。</blockquote></p>
+      </div>
+      <div class="title" style="color: #FFF4E0;"><i class="dropdown icon" style="color: #f8b500;"></i>亞足賽／結束6賽事4場出現爆冷 上屆冠軍澳洲暫排小組墊底</div>
+      <div class="content">
+        <a href="https://sports.ettoday.net/news/1350649" target="_blank"><blockquote>NEWS link</blockquote></a>
+        <p class="transition hidden"><blockquote>Published time: 2019-01-08T01:03:00+08:00</blockquote></p>
+        <p class="transition hidden"><blockquote>▲亞洲盃,澳洲vs約旦,約旦19號Anas Bani Yaseen 進球 。（圖／達志影像／美聯社）<br><br>記者謝孟儒／綜合報導<br><br>亞足聯亞洲盃目前正在阿聯進行小組賽，截至7日共進行了A、B、C組的6場比賽，接著將進行D和E組的首輪賽事，不過從開幕戰阿聯對上巴林開始，卻已經出現4場爆冷賽事，也使得B組出現局勢出現了難以預測的變化。<br><br>先是在A組開幕戰中，原先上屆季軍阿聯酋被看好能夠勝出，阿聯FIFA排名的79也遠超過巴林的113，加上巴林上一次贏球已經是將近11年前，不過本次交手卻先讓巴林Mohamed Al Rohaimi攻破阿聯大門，阿聯Ahmed Khalil操刀罰球，終場1比1逼平，地主差點遭翻盤。<br><br>▼亞洲盃,阿聯vs巴林。（圖／達志影像／美聯社）<br><br>另一頭上屆冠軍的澳洲出賽約旦更是大爆冷，澳洲以FIFA排名41位居亞洲最高，對上109名的約旦，原本被預期應能輕鬆過關，不過上半場第26分鐘，卻先讓約旦Anas Bani Yaseen頭槌破網，澳洲全場19次射門，都讓約旦37歲的門將Amer Shafi 死守住，澳洲爆冷0比1輸球。<br><br>事實上，澳洲在2018年俄羅斯世界盃之後，在陣容上做了大換血，這批球員平均年齡只有26歲，雖然多來自歐洲聯賽，但是跟更重要的是，經驗老道的前鋒隊長38歲卡希爾(Tim Cahill)在世界盃後從國家隊退役，少了精神領袖讓澳洲陣容少了些進攻火力。<br><br>▼亞洲盃,印度vs泰國。（圖／達志影像／美聯社）<br><br>B組則上演印度4比1擊落泰國，原先預估泰國的贏面比較大，但印度隊長Sunil Chhetri上演梅開二度，也改寫了亞洲盃印度55年來不勝的紀錄，不過這也讓泰國主帥Milovan Rajevac隔天馬上丟掉飯碗，雖然印度過去只打進3次亞洲盃決賽圈，不過近幾年來印度都有著穩健的進步。<br><br>另一組敘利亞對上巴勒斯坦，過去雙方交手三次，取得1勝1平1負的成績，但是下半場巴勒斯坦Mohammed Saleh因為頭頂爭搶出現肘擊，累積兩張黃牌出場，敘利亞還是沒能把握住對手少一人的情況，繳出0比0平手。<br><br>▼ 亞洲盃,敘利亞vs巴勒斯坦。（圖／CFP）<br><br>B組各隊都結束第一場比賽，約旦以一勝3積分位居首位，敘利亞和巴勒斯坦平局各一分列二三，澳洲卻反而因為一敗成為小組墊底，不過還有兩場比賽能夠好好把握，分組前2名以及4支最佳第3能夠晉級。<br><br>C組的南韓雖然上半場有些不穩，但仍順利1比0擊敗菲律賓、大陸則是靠著吉爾吉斯的烏龍球2比1贏球，暫時分居小組一二位。<br><br>▼ 亞洲盃,南韓vs菲律賓。（圖／CFP）</blockquote></p>
+      </div>
+      <div class="title" style="color: #FFF4E0;"><i class="dropdown icon" style="color: #f8b500;"></i>旺宏去年營收達369億元 創歷史新高</div>
+      <div class="content">
+        <a href="https://www.ettoday.net/news/20190108/1350656.htm" target="_blank"><blockquote>NEWS link</blockquote></a>
+        <p class="transition hidden"><blockquote>Published time: 2019-01-08T13:00:00</blockquote></p>
+        <p class="transition hidden"><blockquote>▲旺宏董事長吳敏求。（圖／資料照）<br><br>記者周康玉／台北報導<br><br>旺宏（2337）7日公布上（12）月份營收為20.43億元，儘管月減32.9%、年減34.6%，儘管寫下22個月以來最低紀錄，然而在上半年營運帶動，累計2018年全年度營收369.53億元，創下歷史新高。<br><br>受到中美貿易影響，加上之前中興通訊受到美國制裁，記憶體市場供過於求，去年第3季以來價格跌勢兇猛，且從10月僅月增3%、11月大減21%的營收表現看來，第4季確定旺季不旺。<br><br>不僅旺宏，南亞科、華邦電也不約而同在第3季法說會時，釋出保守看法，研調提出對記憶體後市悲觀看法，第1季價格下修15%，第2季預期則幅度減至10%以內。<br><br>旺宏董事長吳敏求表示，低容量的NOR Flash市場則因大陸廠商的激烈競爭，恐面臨跌價壓力，但吳敏求仍強調，高品質及高密度編碼型快閃記憶體（NOR Flash）市場仍會持續成長，第4季到明年價格可望維持，這也是旺宏競爭力所在。<br><br>然而去年因旺宏上半年淡季不淡，上半年每個月營收規模都維持在27億元以上，且都有三到四成的年增率，帶動全年度營收創高。</blockquote></p>
+      </div>
+      <div class="title" style="color: #FFF4E0;"><i class="dropdown icon" style="color: #f8b500;"></i>受惠出貨旺季 美喆單月營收2.92億元創全年新高</div>
+      <div class="content">
+        <a href="http://www.ettoday.net/news/20190108/1350651.htm" target="_blank"><blockquote>NEWS link</blockquote></a>
+        <p class="transition hidden"><blockquote>Published time: 2019-01-08T13:00:00</blockquote></p>
+        <p class="transition hidden"><blockquote>▲美喆國際上月舉辦「2018 “美喆” 雲南室內設計年會」，多達近500位專業室內設計師齊聚一堂，分享石塑地板產品技術與應用。（圖／美喆國際提供）<br><br>記者林淑慧／台北報導<br><br>國際石塑地板製造業者美喆國際公佈最新財報，受惠年底出貨旺季，帶動外銷ODM代工與自有品牌銷售暢旺，美喆2018年12月合併營收達2.92億元，不僅較上月2.77億元成長5.41％，更創下全年單月營收新高記錄。<br><br>美喆國際主管表示，受惠於旗下自有品牌銷售表現仍保持高雙位數成長，以及外銷代工訂單回溫，讓整體產能稼動率保持良好水位，挹注集團去年下半年營收表現逐月成長，12月營收更繳出全年單月營收新高之成績。<br><br>另外，由於外銷代工訂單需求持續提升，包括歐洲地區主要客戶拉貨力道重回過往水準、北美地區持續拓展客戶帶動銷售採購的增加，均為集團營運成長增添動能。<br><br>展望後市，美喆國際表示，集團積極推動美喆、普隆兩大自有品牌業務，並在上月攜手雲南設計師協會共同舉辦「2018 “美喆” 雲南室內設計年會」，多達近500位專業室內設計師齊聚一堂，分享石塑地板產品技術及應用，有利於提升兩大自有品牌之能見度。<br><br>依據財報，美喆國際2018年第四季自結合併營收達8.25億元，亦較第三季成長13.28％。法人表示，美喆自有品牌業務採取擴大經銷通路合作、異業結盟等效益持續發酵，帶動2018年自有品牌銷售表現較2017年大幅成長。</blockquote></p>
+      </div>
+      <div class="title" style="color: #FFF4E0;"><i class="dropdown icon" style="color: #f8b500;"></i>ETtoday新聞雲</div>
+      <div class="content">
+        <a href="https://www.ettoday.net/news/news-list-2019-01-08-2.htm" target="_blank"><blockquote>NEWS link</blockquote></a>
+        <p class="transition hidden"><blockquote>Published time: 2019-01-08T00:00:00</blockquote></p>
+        <p class="transition hidden"><blockquote>每周六21-22點鎖定《ETtoday新聞雲》，全新節目《慧眼看天下》帶您掌握國際!<br><br>加入降價立刻通知你，還有機會抽iPhone唷！現在就抽！</blockquote></p>
+      </div>
+      <div class="title" style="color: #FFF4E0;"><i class="dropdown icon" style="color: #f8b500;"></i>外媒再爆新iPhone規格 配有USB-C接口、Touch ID回歸</div>
+      <div class="content">
+        <a href="https://game.ettoday.net/article/1350331.htm" target="_blank"><blockquote>NEWS link</blockquote></a>
+        <p class="transition hidden"><blockquote>Published time: 2019-01-08T06:20:00+08:00</blockquote></p>
+        <p class="transition hidden"><blockquote>▲ 今年的新iPhone很可能讓USB-C傳輸成真。（圖／特約記者洪聖壹攝）<br><br>科技中心／綜合報導<br><br>今年的iPhone尚未發表，與新款手機相關的預測就不停出現，除了先前外傳的，新款iPhone將會稱為「iPhone XI」、三款新機中會有一款三鏡頭手機之外，現在有又分析師指出，它可能會配備USB-C接口，Touch ID也可能回歸。<br><br>根據外媒phoneArena報導，預測2019年的iPhone手機外型會與2018年版本非常相似；甚至有些人認為，唯一的區別只是有更多的AR功能。<br><br>然而，據Atherton Research副總裁兼首席分析師Jean Baptiste Su撰寫的富比士專欄指出，2019年蘋果iPhone手機將配備一個USB-C接口，且Touch ID指紋辨識也可能回歸。<br><br>蘋果去年就在iPad Pro上放棄了專有的Lightning接口，許多人也希望今年的iPhone能夠沿襲同樣設計，若手機接頭轉為USB-C，可以讓iPhone用戶更容易找到手機配件，當他們需要充電線時，可以幫助他們找到更便宜的替代品，或是隨手與身邊的朋友借用。<br><br>另一方面，分析師預測在2019年的iPhone手機上仍然會有瀏海，只是缺口變得較小。此外，Apple可能會在2019年的iPhone背面添加TrueDepth相機，與前置版相機目前使用的結構光方法不同，據說Apple正在考慮在2019年型號的背面使用「時差測距(Time of Flight)」技術，這是一種比現有方法更容易製造、又相對較便宜的系統。<br><br>► 新iPhone最新渲染圖有3鏡頭 外型考驗果粉接受度<br><br>► 新iPhone方形邊框回歸、三鏡頭拍照超越華為 網友：等多久都願意！<br><br></blockquote></p>
+      </div>
+      <div class="title" style="color: #FFF4E0;"><i class="dropdown icon" style="color: #f8b500;"></i>ETtoday新聞雲</div>
+      <div class="content">
+        <a href="https://www.ettoday.net/news/news-list-2019-01-08-1.htm" target="_blank"><blockquote>NEWS link</blockquote></a>
+        <p class="transition hidden"><blockquote>Published time: 2019-01-08T00:00:00</blockquote></p>
+        <p class="transition hidden"><blockquote>每周六21-22點鎖定《ETtoday新聞雲》，全新節目《慧眼看天下》帶您掌握國際!<br><br>加入降價立刻通知你，還有機會抽iPhone唷！現在就抽！</blockquote></p>
+      </div>
+      <div class="title" style="color: #FFF4E0;"><i class="dropdown icon" style="color: #f8b500;"></i>日本瘋傳「熱布丁吐司」食譜公開 甜甜熱熱冬天吃一口好幸福</div>
+      <div class="content">
+        <a href="http://www.ettoday.net/news/20190108/1349396.htm" target="_blank"><blockquote>NEWS link</blockquote></a>
+        <p class="transition hidden"><blockquote>Published time: 2019-01-08T13:00:00</blockquote></p>
+        <p class="transition hidden"><blockquote>日本 Twitter 用戶 @SW_Chief 近日發布了自己製作的「甜熱三明治」，兩天內被點讚6萬次、轉發2萬則！他將布丁夾到兩片熱吐司中，一個超美味的法式甜點就誕生了！重點是，為什麼一直都沒有人想到要這樣吃呢？<br><br>製作材料：<br><br><br><br>吐司片*2<br><br>布丁*1<br><br>壓網烤吐司夾*1<br><br><br><br>製作食譜：<br><br>1.先把布丁擠到盤子上，微波幾秒鐘預熱。注意喔！只要稍微有點熱度就可以了。<br><br>2.把預熱好的布丁夾到兩片吐司中間，放進「壓網烤吐司夾」裡壓一壓。<br><br>3.把吐司夾放進烤箱裡烤，焦度自訂。<br><br>4.烤完之後把它切一半吃，比較不容易爆漿。<br><br>「熱布丁吐司」製作方法真的超簡單，只是一直沒有人想到這樣吃而已！香甜的布丁味，搭配熱騰騰的吐司，當早餐、甜點都好適合啊！<br><br>日本網友們推薦的「壓網烤吐司夾」可以在這裡購買喔 ↓<br><br>【BreadLeaf】壓網烤吐司夾<br><br>【月陽】直火式三明治烤盤<br><br>【SAMPO 聲寶】 烤吐司三明治機<br><br>【日本 recolte】格子三明治機【獅子心】4合1點心機<br><br>TEXT／BY SYLVIA CHENG<br><br>PHOTO／24H.PCHOME.COM.TW、TW.BUY.YAHOO.COM、GOODS.RUTEN.COM.TW、Twitter@SW_Chief<br><br>＊本文由 ELLE Taiwan 報導，未經授權同意不得轉載＊<br><br>更多流行時尚資訊，盡在《ELLE》<br><br>加入ELLE LINE@好友，關注最新潮流大小事<br><br>延伸閱讀<br><br>嚴選東京5家最精緻「布丁」！每一口都是你想念的，焦糖和奶油融在一起的童年味道<br><br>漫畫料理「舒芙蕾歐姆蛋」！充滿空氣的蛋泡沫，東京 La Mere Poulard 教你怎麼做！</blockquote></p>
+      </div>
+      <div class="title" style="color: #FFF4E0;"><i class="dropdown icon" style="color: #f8b500;"></i>快訊／金正恩應習近平邀約 1/7-1/10確定訪陸4天「過生日」</div>
+      <div class="content">
+        <a href="https://www.ettoday.net/news/20190108/1350679.htm" target="_blank"><blockquote>NEWS link</blockquote></a>
+        <p class="transition hidden"><blockquote>Published time: 2019-01-08T13:00:00</blockquote></p>
+        <p class="transition hidden"><blockquote>▲金正恩確定在1/7至1/10訪中國大陸，圖為先前他與習近平會面。（圖／路透社）<br><br>記者錢玉紘、黃心瑀／綜合外電報導<br><br>中共中央對外聯絡部新聞發言人1月8日在北京宣佈，應中共中央總書記、國家主席習近平邀請，朝鮮勞動黨委員長、國務委員會委員長金正恩1月7日至10日前往中國進行訪問。先前日、韓媒體報導，中國大陸與北韓鄰接的遼寧丹東地區在7日下午突然出現了眾多的警力戒備。<br><br>韓聯社報導提到，除了金正恩之外，北韓第一夫人李雪主也同行；另外，朝鮮勞動黨中央委員會副委員長金英哲（김영철）、金正恩的親信李洙墉（리수용）、朴泰成（박태성）、現任朝鮮勞動黨中央政治局委員和外務相的李勇浩（리용호），以及在2018年時出任人民武力部、被視為核子專家的努光鐵（노광철）也一同前往參與這次的北京行。<br><br>韓聯社先前也引述消息來源指出，一輛載著「北韓高層官員」的列車已進入中國，該輛列車在當地時間7日晚間10點15分左右經過丹東。韓聯社報導還提到，目前丹東當地和鴨綠江周邊戒備森嚴，附近旅館內，面對鴨綠江的房間也不能訂了，更有網友在微博指出，「丹東某街道車流突然轉向，不知道是不是和這件事有關」。<br><br>NHK報導則提到，北韓和中國大陸邊境的橋樑附近的確有大批警力戒備。這是金正恩在一年之內第4次與中國國家主席習近平會面，去年兩人共會面了3次，前兩次都是事後才發布正式消息。值得一提的是，今天1月8日是金正恩的生日，他也許會選在中國度過。<br><br>韓聯社報導，金正恩和習近平的會面也可能是為第二次「川習會」做相關準備，美國總統川普先前表示這場會面「很快就會發生」，更在6日提到，在「不久的將來」就會宣布會面地點。</blockquote></p>
+      </div>
+      <div class="title" style="color: #FFF4E0;"><i class="dropdown icon" style="color: #f8b500;"></i>法國潛水冠軍挑戰極寒冰湖 唯一裝備是「帝舵表」</div>
+      <div class="content">
+        <a href="https://www.ettoday.net/news/20190108/1348062.htm" target="_blank"><blockquote>NEWS link</blockquote></a>
+        <p class="transition hidden"><blockquote>Published time: 2019-01-08T13:00:00</blockquote></p>
+        <p class="transition hidden"><blockquote>▲帝舵表超威！戴著進冰湖超清晰。（影／品牌提供）<br><br>記者楊坊士／台北報導<br><br>在潛水錶領域深耕已久的TUDOR（帝舵表）又有新成就了，那就是極限挑戰的「最佳助攻」！來自法國的自由潛水冠軍，日前挑戰阿爾卑斯山上的「冰湖」，身上的唯一裝備就是一只潛水錶，證明其強悍性能，是極限環境裡不可缺少的夥伴。<br><br><br><br><br><br>▲極限環境裡，帝舵表是他的唯一裝備。（圖／品牌提供）<br><br>法國自由潛水冠軍摩根波齊斯（Morgan Bourc’his），在極冷酷的環境裡，配戴著Pelagos（帝舵領潛型）腕錶，以沒有任何輔助及潛水設備的「自由潛水」形式探索冰壺成功，因陶瓷旋轉外圈上有夜光塗料，即便在高山、湖泊等漆黑環境或水域裡，都能清晰讀時。<br><br>▲夜光塗料在高山、湖泊環境都相當易讀。（圖／品牌提供）<br><br>手上這只腕錶，曾得過2015年日內瓦鐘錶大賞（Grand Prix d’Horlogerie de Genève）「最佳運動腕錶獎」大獎，防水深度達500米，錶殼及錶帶使用鈦金屬材質，重量較不鏽鋼輕40%。<br><br>▲極限挑戰不妨考慮它。（圖／品牌提供）<br><br><br><br>另有專利的自動調節帶扣、排氦閥門功能，搭載經COSC瑞士官方天文台認證的帝舵表原廠機芯MT5612，擁有約70小時動力儲存，加上全夜光顯示，下次想要挑戰極端環境，別忘了戴上它。<br><br>►►看更多時尚資訊分享，快來下載星光雲App</blockquote></p>
+      </div>
+      <div class="title" style="color: #FFF4E0;"><i class="dropdown icon" style="color: #f8b500;"></i>口譯哥成駐美外交官 羅智強：一個月可領240K</div>
+      <div class="content">
+        <a href="https://www.ettoday.net/news/20190108/1350603.htm" target="_blank"><blockquote>NEWS link</blockquote></a>
+        <p class="transition hidden"><blockquote>Published time: 2019-01-08T13:00:00</blockquote></p>
+        <p class="transition hidden"><blockquote>▲口譯哥趙怡翔。（資料照／記者陶本和攝）<br><br><br><br>政治中心／綜合報導<br><br>外交部長吳釗燮日前證實，將安排其機要、「口譯哥」趙怡翔赴美國擔任秘書。對此，總統府前副秘書長羅智強在臉書發文表示，一般駐美代表處12職等政治組長薪水連加給，一個月約可領240K，是22K的11倍。<br><br>羅智強表示，口譯哥，因為是吳釗燮的親信，一步登天外派駐美代表處12職等政治組長。大家知道12職等是什麼意思嗎？一輩子為國家外交奮鬥的蘇啟誠，最後一個工作，大阪辦事處處長是12職等。<br><br>羅智強指出，要外派美處政治組長，通常最少要做完簡任11等副司長，資歷、經歷必須夠深，才會外放做簡任12職等的政治組組長；一般駐美代表處12職等政治組長薪水連加給，一個月約可領240K，是22K的11倍。<br><br>羅智強說，當然，這正常狀態的薪水，如果口譯哥領得更少或更多，也可以公布讓大家「聞香」一下。最近覺青們因為蔡英文對習近平宣戰非常的high，可能漏掉蔡英文這踐踏外交文官體制的豐功偉業，我好心提醒一下，還不趕快去按讚？</blockquote></p>
+      </div>
+      <div class="title" style="color: #FFF4E0;"><i class="dropdown icon" style="color: #f8b500;"></i>迪麗熱巴《枕上書》換造型了！ 12劇照網驚亮點「阿離變女兒」</div>
+      <div class="content">
+        <a href="https://www.ettoday.net/news/20190108/1350637.htm" target="_blank"><blockquote>NEWS link</blockquote></a>
+        <p class="transition hidden"><blockquote>Published time: 2019-01-08T13:00:00</blockquote></p>
+        <p class="transition hidden"><blockquote>記者陳芊秀／綜合報導<br><br>大陸女星迪麗熱巴主演仙俠劇《三生三世枕上書》，尚未定檔已經備受期待。該劇日前為了滿足粉絲，率先公布12張主要角色的劇照，除了女主角「白鳳九」造型煥然一新，更有人發現第一部的關鍵角色「阿離變女兒了！」<br><br>▲迪麗熱巴《三生三世十里桃花》以紅色系仙衣為主。（圖／翻攝自微博）<br><br>迪麗熱巴在《三生三世十里桃花》扮演青丘接任女帝，第一部戲服以粉色、紅色系為主，和楊冪扮演的「白淺」造型做出區隔，搭檔高偉光扮演的「東華帝君」，兩人身高差萌出大票CP粉。她在新戲《枕上書》扶正當女主角，新造型難得換上雪白仙衣，雙手捧著白色木籃，額上紅色花印，甜美笑容被讚太可愛。<br><br>▲迪麗熱巴《枕上書》換上白色仙衣。（圖／翻攝自微博）<br><br><br><br><br><br>▲東華帝君也有白色仙衣造型，腰間紫色腰帶不改主色系。（圖／翻攝自微博）<br><br>除了迪麗熱巴的「白鳳九」換白色仙衣，陳楚河扮演火鳳凰「折顏」承襲第一部造型，髮型瀏海旁分加上長髮，手持仙扇大噴帥氣。他和黃俊捷扮演的「白真」在小說中對手戲多，高顏值組合受到腐女粉絲關注。<br><br>▲《枕上書》角色劇照，陳楚河扮演火鳳凰「折顏」。（圖／翻攝自微博／枕上書）<br><br>▲黃俊捷扮演「白真」。（圖／翻攝自微博／枕上書）<br><br><br><br>此外，《三生三世十里桃花》後半段的關鍵角色「阿離」，是男女主角白淺、夜華的兒子，當時由童星張藝瀚飾演，戲裡被媽媽暱稱「糯米糰子」，也因此爆紅。不過《枕上書》中阿離換了7歲女童星張茗燦，她曾在《烈火如歌》扮演迪麗熱巴的童年時期，這次在《枕上書》換成小書生的清秀造型，同時也讓眼尖網友驚呼「阿離變女兒啦」、「小如歌變成小阿離」、「茗燦很可愛啊，不過阿離不應該是個男孩子吧？」新選角又再添討論話題。<br><br>▲《枕上書》白淺兒子阿離找女童星演出，網友驚呼「阿離變女兒啦！」（圖／翻攝自微博）<br><br><br><br><br><br>▲郭品超在《枕上書》扮演西海二皇子「蘇陌葉」，第一部《十里桃花》是疊風，也是白淺的大師兄。（圖／翻攝自微博／枕上書）<br><br><br><br>▲天族「連宋」和成玉第一部設定有一段情。（圖／翻攝自微博／枕上書）<br><br><br><br><br><br>▲劉芮麟在《枕上書》扮演魔君「燕池悟」，深愛「姬蘅」。（圖／翻攝自微博／枕上書）<br><br><br><br><br><br><br><br>▲劉雨欣扮演魔族公主「姬蘅」，喜歡東華帝君。（圖／翻攝自微博／枕上書）<br><br><br><br><br><br>▲王驍在《枕上書》扮演「司命」，主宰凡人命運。（圖／翻攝自微博／枕上書）<br><br><br><br>▲《枕上書》白滾滾是東華帝君和白鳳九的兒子，繼承老爸白頭髮。（圖／翻攝自微博／枕上書）</blockquote></p>
+      </div>
+      <div class="title" style="color: #FFF4E0;"><i class="dropdown icon" style="color: #f8b500;"></i>ETtoday新聞雲</div>
+      <div class="content">
+        <a href="http://www.ettoday.net/news/news-list-2019-01-08-5.htm" target="_blank"><blockquote>NEWS link</blockquote></a>
+        <p class="transition hidden"><blockquote>Published time: 2019-01-08T00:00:00</blockquote></p>
+        <p class="transition hidden"><blockquote>每周六21-22點鎖定《ETtoday新聞雲》，全新節目《慧眼看天下》帶您掌握國際!<br><br>加入降價立刻通知你，還有機會抽iPhone唷！現在就抽！</blockquote></p>
+      </div>
+      <div class="title" style="color: #FFF4E0;"><i class="dropdown icon" style="color: #f8b500;"></i>發400億紅包給低薪族被罵爆 專家點出關鍵台灣「地下經濟」太多</div>
+      <div class="content">
+        <a href="https://www.ettoday.net/news/20190108/1350643.htm" target="_blank"><blockquote>NEWS link</blockquote></a>
+        <p class="transition hidden"><blockquote>Published time: 2019-01-08T13:00:00</blockquote></p>
+        <p class="transition hidden"><blockquote>▲中經院代理院長王健全。（圖／記者紀佳妘攝）<br><br>記者紀佳妘／台北報導<br><br>小英政府在元旦釋出「分享經濟紅利」的議題，有意優先分享經濟成長紅利給收入較少的民眾，此舉卻引來一片撻伐聲浪，不過中經院代理院長王健全認為，減稅紅包400億要怎麼樣用得好、用得巧，事實上短期內可優先鎖定「三中一青」，針對中小企業、中低收入、中南部及青年族祭出福利後，不僅能提高政府支持度，還能有利後續推動後續政策。<br><br>中華經濟研究院代理院長王健全表示，政府若有減稅紅包400億元，可將這筆錢分成兩部分運用，舉例來說，一半的錢可優先幫助弱勢族群，鎖定「三中一青」，也就是中小企業、中低收入戶、青年族，協助中小企業轉型、年輕人創業及就業的媒合或是中低收入戶發放消費券等，讓這群人感覺到一絲希望，還可拉升政府的支持度，更有利於後續推動中長期政策。<br><br>隨著數位經濟時代的來臨，王健全說，另一半的減稅紅包則可運用在企業的升級與轉型，政府可幫助企業投入人工智慧（AI）相關產業的投資，「救急跟救長期應該雙管齊下」，短中長期政策同時併進，效果才會更加顯著。<br><br>▲專家建議政府減稅紅包，可優先鎖定「三中一青」，讓這群人感受到一絲的希望。（示意圖／記者張一中攝）<br><br>過去2年經濟成長、稅收超過預期，總統蔡英文將經濟紅利，優先分享給收入較低的民眾，卻引來許多民怨。王健全對此指出，台灣有很大比例是地下經濟，「有些人薪水看起來很少，但有一些業外收益」，甚至可以不用報稅，才會讓人感覺不公平，但從稅收對象來看，其實繳稅最多的是高所得的人，繳稅占逾5成以上。<br><br>至於減稅紅包發放的時間點，王健全認為，年節即將到來，加上經濟不景氣，若現在發放給中低收入戶，消費意願也會大幅提升，因為平時花費恐不太夠，同時也會對內需帶來刺激作用，因此選擇在過年或年節發放有點「救急」味道，或是也可選擇內需較弱時實施，讓內需市場維持一定熱度。</blockquote></p>
+      </div>
+      <div class="title" style="color: #FFF4E0;"><i class="dropdown icon" style="color: #f8b500;"></i>飲酒騎車遭撞死拒賠保險金 專家：無因果關係者應給付保險金</div>
+      <div class="content">
+        <a href="https://www.ettoday.net/news/20190108/1350694.htm" target="_blank"><blockquote>NEWS link</blockquote></a>
+        <p class="transition hidden"><blockquote>Published time: 2019-01-08T13:00:00</blockquote></p>
+        <p class="transition hidden"><blockquote>▲酒駕示意圖。（示意圖／達志影像／美聯社）<br><br>記者李蕙璇／台北報導<br><br>金融消費評議中心對於保戶酒後騎車遭自小客撞死意外，因其酒後騎車與其死亡間並無相當因果關係存在，不符合保單條款的酒駕除外責任，認定保險公司不能拒賠傷害險的身故保險金。<br><br>該案的爭議點是因為民眾購買的傷害保險的保單條款載明的除外責任，也就是不會理賠保險金的狀況。<br><br>條款約定說「被保險人因下列原因致成死亡時，本公司不負給付保險金的責任。三、被保險人飲酒後駕（騎）車，其吐氣或血液所含酒精成份超過道路交通法令規定標準者。」又道路交通管理處罰條例第3條規定，「本規則所用名詞釋義如下：八、車輛：指非依軌道電力架設，而以原動機行駛之汽車（包括機車）、慢車及其他行駛於道路之動力車輛。」<br><br>而所謂慢車，依道路交通安全規則第6條規定，係指「自行車」或「三輪以上慢車」〔包含：1.人力行駛車輛：指三輪客、貨車、手拉（推）貨車等。2. 獸力行駛車輛：指牛車、馬車等。〕。<br><br>因此，本案保戶所騎乘的車輛是屬於上開規定所稱之慢車。<br><br>再依道路交通安全規則第120條（修正版於103年3月31日施行）第4款規定：「慢車駕駛人有下列情事之一者，不得駕駛或推拉車輛：四、飲用酒類或其他類似物後其吐氣所含酒精濃度達每公升0.15毫克或血液中酒精濃度達百分之0.03以上。」<br><br>由此可知，有意將酒後騎乘慢車列入禁止範圍，故所謂酒後駕（騎）車，亦應包含自行車。<br><br>因此，若被保險人飲酒後（吐氣所含酒精濃度或血液中酒精濃度超過前述數值）騎乘自行車發生死亡，且死亡結果與其酒後騎車行為間有因果關係，則保險公司無給付保險金的責任。<br><br>關於因果關係之判斷，所謂相當因果關係，係指依經驗法則，綜合行為發生當時所存在之一切事實，為客觀之事後審查，認為在一般情形下，有此環境，有此行為之同一條件，均可發生同一結果者，則該條件即為發生結果之相當條件，行為與結果即有相當因果關係。<br><br>反之，若在一般情形下，有此同一條件存在，而依客觀審查，認為不必皆發生此結果者，則該條件與結果不相當，不過為偶然事實而已，其行為與結果間即無相當因果關係（最高法院著有76年台上字第192號刑事判例可資參照）。<br><br>金融消費評議中心委員們認為，保戶於晚上酒後騎車（未裝設照明設備）遭自小客車自後方同向追撞，經送往醫院急救後仍不幸死亡，其酒測值為0.55mg/L已超出相關法令規定標準。<br><br>而本案爭點在於系爭保險條款所謂「飲酒後駕（騎）車」是否包含自行車，以及保戶酒後騎車與其死亡間是否有因果關係存在。<br><br>依修正後道路交通安全規則第120條第4款規定，所謂酒後駕（騎）車亦應包含自行車。<br><br>但保戶酒後騎乘無照明設備車輛，在夜間遭同向後車（未注意車前狀況）追撞導致死亡，就因果關係相當性而言，只要是夜間騎乘無照明設備車輛，且同向後車未注意車前狀況時，多會產生相同之追撞結果，足見保戶是否酒後騎車，與其死亡間難認具有相當性。因此，保戶雖是酒後騎車發生車禍，但因其酒後騎車與其死亡間，並無相當因果關係存在，與保險條款之除外責任不符，保險公司拒賠保險金，難認有理。</blockquote></p>
+      </div>
+      <div class="title" style="color: #FFF4E0;"><i class="dropdown icon" style="color: #f8b500;"></i>食物常冰到過期...小心冰箱成細菌溫床 專家教你分類管理！</div>
+      <div class="content">
+        <a href="http://www.ettoday.net/news/20190108/1350640.htm" target="_blank"><blockquote>NEWS link</blockquote></a>
+        <p class="transition hidden"><blockquote>Published time: 2019-01-08T13:00:00</blockquote></p>
+        <p class="transition hidden"><blockquote>▲專家建議，可依照食物不同的類別、處理狀態、包裝差別來做冰箱管理。（圖／達志示意圖）<br><br>文／蕭琮容<br><br>日常食安的基本：聰明管理冰箱食物<br><br>冰箱的發明，大大地改變了現代人們食用以及保存食物的可能方式。一般民眾也知道低溫環境可以降低細菌的活動力，有助食物保存。但是殊不知，家庭用冰箱不比專業貯存冷凍庫，每天開開關關，保存溫度波動，或是冰箱裡有異味可能代表可能有食物腐敗卻未察覺⋯⋯都有可能儲存食物的空間變成污染食物的溫床。<br><br>在食品安全意識逐漸抬頭，《食力》整理家用冰箱管理基本要注意的方法，建議推動食品安全，不如先從家裡做起。<br><br>冰箱管理入門：溫控及整潔<br><br>（1）購置一隻獨立冰箱專用的溫度計：價格不拘，放在冰箱中監控溫度的變化。可以幫助消費者做保存管理。因為冷藏應在攝氏4.5度以下，冷凍應在攝氏-18度以下。溫度維持穩定，食物保存狀態也才會穩定。<br><br>（2）適度安排空間：讓冰箱正常運作。冰箱內食材，不需要放太滿，保留冰箱冷風運作空間。<br><br>（3）維持整潔：避免交叉感染。食品保存加蓋、密封。如果有滲漏，特別是肉品解凍的滲出液，一定要清潔乾淨，因為李斯特菌可在冷藏溫度下成長。<br><br>（4）確認食物的保存期限：期限內食用完畢，定期出清。<br><br>冰箱管理進階班：分門別類管理食材<br><br>冰箱裡放置食品也需要管理，而且不同的食材，使用不同的包裝方式，在不同的保存溫度中，能夠存放的時間是不一樣的。舉例如下：<br><br>（1） 混和類的食物：<br><br>尤其是沙拉和湯品類熟食，包含了不同的食材，每種食材都各有特性，放在冷藏庫至多能放3~5天。但是湯如果冷凍保存，可以延長到2個月。<br><br>（2） 新鮮肉品：<br><br>雞鴨等家禽類，無論整隻或是局部，冷藏建議至多2天。但如果是冷凍全雞可放1年。牛羊豬等家畜類肉品，分切處理後，冷藏至多3~5天，冷凍可拉長至半年。<br><br>（3） 加工肉品：<br><br>像是培根香腸類、漢堡肉丸、碎肉產品特性不同。培根冷藏可放一週。生香腸，不管是由豬肉、雞肉、火雞製成，請盡量在2天內食用完畢，冷凍可放一個月。而碎肉類冷藏1~2天，冷凍可放三個月。<br><br>（4） 剩菜：<br><br>烹煮過的剩菜，不管是肉類、還是麵團類，冷藏不要超過3天。冷凍可放1~3個月。<br><br>管理要點：速凍，維持溫度的穩定<br><br>無論是購置的生熟食，或是餐餘的剩菜飯，如果是需要冷藏保存的類型。最重要的秘訣就是快速降溫，別暴露在室溫中超過兩小時。同時請降溫後才放入。不然仍然散發熱量的食物，會改變冰箱內的溫度平衡，造成其他食物保存狀態改變，因而帶來滋生細菌的可能。<br><br>發生災難的冰箱管理學：停電了，怎麼辦？<br><br>美國2005年曾發生卡翠娜颱風，造成嚴重災情，台灣每年夏天亦都有颱風來襲，嚴重時斷水斷電，冰箱失去電力，要怎麼保存食物呢？<br><br>最簡單的方法就是停電期間，減少冰箱門的開關，避免升溫。必要時可以放冰塊保冷。如果原本冷藏、冷凍的食物處於高於攝氏4.5度的環境，超過2個小時以上，冷凍肉品上的冰晶也消失了，建議不要輕易冒險，捨棄這些可能變質的食物吧。<br><br>你應該要知道的食事<br><br>冰箱延長了人們保存食物的時間，但也因為便利，人們常常冰著冰著就忘了。管理冰箱，依照食物不同的類別、處理狀態、包裝差別來做保存，是日常生活中就可以自主管理的食安。<br><br>本文由food NEXT食力【日常食安的基本：聰明管理冰箱食物】授權提供<br><br>★圖片為版權照片，由達志影像供《ETtoday新聞雲》專用，任何網站、報刊、電視台未經達志影像許可，不得部分或全部轉載！</blockquote></p>
+      </div>
+      <div class="title" style="color: #FFF4E0;"><i class="dropdown icon" style="color: #f8b500;"></i>寶貝對不起！「道歉完繼續偷吃」渣男星座Top5 這種鬼話妳敢信</div>
+      <div class="content">
+        <a href="https://health.ettoday.net/news/1350192" target="_blank"><blockquote>NEWS link</blockquote></a>
+        <p class="transition hidden"><blockquote>Published time: 2019-01-08T07:00:00+08:00</blockquote></p>
+        <p class="transition hidden"><blockquote><br><br>▲你天生就是「愛玩」的星座嗎？總是讓另一半難過卻死性不改？（示意圖／記者李佳蓉攝）<br><br>文／亞提米斯<br><br>有些人被抓到偷吃的時候，態度往往都會表現出相當程度的歉意，大哭、下跪或是種種不同的懺悔，可是在懺悔完、保證自己絕對不會再偷吃之後沒多久，卻又開始管不住自己、開始又向外偷吃劈腿，同樣的無限迴圈一直重覆，讓某些人覺得實在是無奈又頭痛，哪些星座的人在談戀愛的時候容易有這種情形呢？跟著亞提米斯一起來看看吧！<br><br>★雙子座：<br><br>嘴巴上說的話是那一瞬間心裡想說的話，下一個瞬間就是另外一回事。<br><br>雙子座的腦筋很靈活，不會因為談戀愛就停止運轉，而這也是一個遊戲愛情的星座，當然不見得是每個雙子座都一定會偷吃，往往雙子座本身偷吃的技術一直都是很高超的，也不怎麼容易被抓到，加上他們有時很愛交朋友搞曖昧，哪些是曖昧、哪些是朋友、哪些又是正在偷吃中全都混在一起，往往也都令人有種霧裡看花的感覺。<br><br>真的被抓到了、有百分百確切的證據，雙子座賴都賴不掉的時候，雙子座還是會道歉的，倒不能說雙子座很會演，而是在那個當下的雙子座如果想要保住這段愛情，那麼雙子座會用盡渾身解數，他們的三寸不爛之舌加上很會看風向、很懂察顏觀色的腦袋，通常也都能夠讓對方覺得雙子座本身是真心在道歉的。<br><br>嚴格來說，雙子座本身其實在那個當下是真的覺得自己做錯事，才會很努力的去挽回，問題是在於把這段關係挽回了之後，過了一段時間，有些雙子座就容易故態復萌。<br><br>會讓雙子座想偷吃絕對不是沒有原因，往往都是這段原本的感情可能已經不再有趣，而這個雙子座也還沒有到想要穩定下來的地步，他們就會想辦法去找樂子，加上原本雙子座就是交遊廣闊類型，向外的機會不是沒有，也就容易再度演變成偷吃的情況。<br><br>想要走向穩定的雙子座其實會刻意的去拉出一條安全界線，他們很清楚認識朋友或是出去玩都只是找樂子尋開心，不能夠去損及現在這段感情，可是不是每個雙子座都傾向穩定，有些雙子座屬於玩樂心還很重，並沒有那麼期待要穩定下來的話，那麼就容易道完歉、懺完悔，繼續開始他們新的玩樂旅程。<br><br>也有些人很疑問，如果雙子座那麼愛玩，那又何必找個對象談戀愛然後劈腿呢？雙子座本來就是希望能夠穩定又想玩樂的星座，穩定太久會無趣、玩太久又覺得很空虛，是矛盾也是一種互補，這只能說是雙子座性格上的特殊需求吧！<br><br><br><br>▲雙魚男在妳身上得不到愛與被需要，就會向外尋求。（圖／達志／示意圖）<br><br>★雙魚座：<br><br>只能說是一種很複雜的情緒，「歉疚」是沒有辦法壓制住對愛戀的渴求。<br><br>雙魚座向來很需要愛，有時候要形成這種懺悔完還繼續去偷吃的情形，也跟雙魚座感情上的另一半有關──這個另一半似乎沒辦法滿足雙魚座需要被陪伴、需要被愛的感覺，在現在的對象身上找不到或得不到足夠的愛的雙魚座就會想辦法去找新的對象要「愛」，然而，他們對於現在這個對象卻也一定有相當程度的依戀，因此被抓包偷吃的時候就會道歉，聲淚俱下感情真摯，可是道完歉後，還是沒辦法在這個對象身上得到足夠被愛的感覺時，雙魚座就可能又開始去劈腿，就算有歉疚感也一樣。<br><br>這並不與「是否真的覺得抱歉」有相關性，而是歉意歸歉意，但是如果愛情的補給不夠的話，雙魚座會有一種哀怨、一種別人無法體會的孤寂，兩相比較的話，雙魚座有時寧可道歉和充滿了歉意，卻並不願意選擇被寂寞給殺死。<br><br>有些雙魚座是屬於無法抵抗誘惑的類型，或該說這樣的雙魚座總容易被浪漫的愛戀情境所迷惑，就像掉進了一場美夢一樣，被抓包的時候就是夢醒了過來，可是醒來的現實太過可怕，就會促使雙魚座再掉進另一場美夢裡頭，形成一種無限迴圈、或該說是種惡性循環？<br><br>至於為什麼雙魚座不肯乾脆一點先分手，還要這樣偷吃個沒完呢？不少雙魚座是真的很捨不得現在這個對象，也認為目前這樣走進冷淡期或是接收不到足夠愛戀的情況只是個過渡期，只要努力一點或是時間過去後，跟眼前這個對象就可以繼續寫下長長久久的童話，吊詭的是，這樣的雙魚座也只覺得劈腿只是場美夢，不會因此而長長久久，只是暫時愛一下，讓自己感覺被愛。<br><br>標準的雙魚語言會告訴你，我很愛我現在這個另一半，我真的覺得非常對不起這個人，我知道我是真的愛這個人的。只是卻沒有辦法因此而讓自己不掉進另一場美夢，這也是許多偷吃成性的雙魚座在愛情性格上很矛盾卻無法解決的部份。<br><br>★牡羊座：<br><br>偷吃是種一時的衝動，當衝動一來的時候，什麼抱歉都已經不在腦海裡頭。<br><br>簡單來說就是熱情來了就什麼都忘了。道歉是一種熱情、偷吃也是，當牡羊座深感抱歉的時候，他們會非常用心、努力、拼了命的跟對方道歉，熊熊烈火般的意志讓人很難去懷疑牡羊座道歉的誠心，加上牡羊座道歉又非常的有誠意，往往也都還滿容易讓另一半接受，因為他們看起來就是一副百分百保證「不會再犯」的樣子。<br><br>事實上，這就得要看牡羊座是不是又被熱情沖昏了腦袋，只要腦袋又被沖昏的話，通常也就難免繼續又偷吃，在早期的社會裡頭往往是比較容易發生在牡羊男的身上，不過現代這個社會裡頭，不少牡羊女也會發生這種情形。<br><br>只能說牡羊座如果把天生的單線式思考發揮到了極致，就還滿容易發生這種情形，當他們一次只思考一件事，並且在衝動當中完全沒有考慮到可能的後果，或該說是他們根本也沒有想到事情會有什麼展開的狀況，只專注於那個當下的熱情時，就容易發生這種狀況。<br><br>思考單純的牡羊座也是屬於還滿好騙的類型，他們是不管到幾歲都還是可以很天真、很容易被灌迷湯被騙，加上如果面對誘惑的同時又被挑起了人性原始的慾望，那麼當然也就是一發不可收拾，也造成了這個很矛盾的情況。<br><br>知道自己錯了、非常誠心誠意的道歉，卻又在下一次的誘惑當中輕易的掉進陷阱，或是根本也就管不住自己那顆奔騰的心而又犯錯，偏偏牡羊座本身又是單純的可愛，他們偷吃都還滿容易被發現，因此這樣的無限迴圈就會建立在某些牡羊座的感情世界裡頭，明明知道自己犯了錯，卻又控制不住自己犯錯，道歉、懺悔後又再度迷失，事情也就一再重覆上演相同類似的戲碼。<br><br>「我保證不會有下一次，真的！」(萬分超級激動貌)<br><br>「每一次你都是這麼說的。」<br><br><br><br>▲射手男天生就是玩咖，所以就算偷吃後道完歉，不久後又會開始拈花惹草。（示意圖／取自免費圖庫pakutaso）<br><br>★射手座：<br><br>偷吃真的是不對的。然而，其實本來也就沒那麼愛你，只是還不到想分手的時候。<br><br>當射手座的玩心還沒停的時候，特別容易發生這種比較負面的情況。射手座還算滿明辨是非，也就是他們很清楚偷吃劈腿當然是不對的，可是射手座有種很詭異的思考模式，也就是跟現在這個對象相處也還算可以，也還沒有鬧到沒辦法處下去，可是其實也沒有那麼樣的愛，或該說跟目前這個看似穩定的對象並沒有那麼樣達到完美的契合，只是並沒有到要分手的地步。<br><br>在這裡談論的是比較愛玩型的射手座，他們可能走玩咖路線，並且非常的愛玩戀愛遊戲，這樣的射手座有時候也比較走「自我感覺很良好」的路線，他們的心態有點像是，我今天知道我做錯事，但是可能沒有嚴重到要分手，向對方道歉之後，人生的道路還是要繼續向前走下去，至於之後會不會遇到新的「娛樂」，恐怕那就是未來的事情。<br><br>這類的射手座不怎麼喜歡對自己的戀愛設限，他們並沒有太多所謂完美對象的條件，而是比較傾向合則來、不合則去，當然還是會感受到對方的愛，如果被抓到偷吃，這類的射手座當下往往也就是道歉，錯的事就是錯的，他們也沒有什麼好狡辯的，或是根本也就不需要什麼樣的自我辯白，因為根本就是浪費時間，承認錯誤對射手座不困難。<br><br>可是如果要因為這樣的錯誤而幫自己架設一個框架，這會讓愛自由的射手座覺得自己很受限，他們就會選擇提分手甩頭就走，但如果戀愛的對象並不會因此對射手座有太多的查勤或是引起太多的爭吵，這反而會讓射手座覺得「留下來也還可以」，雖然不盡然是愛到不願意分開，可是畢竟錯的是自己、對方又如此的包容，那麼就暫時先繼續下去。<br><br>只是，本來也就沒有那麼愛，這類的射手座又很愛在外面亂跑到處玩，擦槍走火劈腿偷吃並不困難的情況下，也就容易演變成道完歉、不久後又開始偷吃的情形。<br><br>★水瓶座：<br><br>你希望聽到我認錯，我就認錯。只要下次不要被抓到就好了吧？<br><br>只能說這類的水瓶座對於愛情的處理態度非常的特別，特別到令人嘆為觀止的地步。這類的水瓶座對於曖昧或偷情有著一定程度的需求，卻不會因此想要跟現在的戀愛對象分手，有點像是覺得口渴隨便買個飲料喝，問題是他們明明身上就帶著一瓶白開水一樣。<br><br>這一類的水瓶座其實還滿賊的，他們深知自己喜歡玩戀愛的感覺，可是卻又覺得現在這個對象很好、好好相處的話可以走很長久，問題是身邊的誘惑還不少，可以的話水瓶座也還是偶爾想要玩玩，而且，這一類的水瓶座有種特殊的戀愛思考，他們不見得反對一個茶壺只能配一個茶杯，可是他們覺得偶爾不小心的偷吃是一種人性正常的表現。<br><br>沒有人是完美的，水瓶座知道自己身邊這個對象很好，可是總也不是十全十美，所以會去找一些有互補作用的曖昧對象偷個情或劈個腿，還有更加特殊的水瓶座，他們會想要試試跟很「奧妙」的對象談戀愛試看看，像是如果自己身邊的情人是個正妹或型男，有的水瓶座劈腿的對象卻會是令人傻眼、一般人無法承受的恐龍級對象，實在也根本摸不清水瓶座在想什麼。<br><br>身邊有不錯的好對象當然就不想要分手，如果認錯可以保住這段感情，水瓶座就會道歉認錯，不過這一類的水瓶座比較偏向是，對方希望的認錯模式是怎樣，水瓶座如果能做到就一定會盡量去做到，可是是不是真的有悔不當初的感覺或是有真心的歉意，那根本就是另外的一回事。<br><br>這是凡人無法理解的思考模式：他們不覺得要劈很多腿或擁有很多才是種快樂，可是如果劈腿也不是一件罪大惡極的事，這只是人性的一環。所以偶爾偷吃對於這一類的水瓶座來說，他們根本就覺得無所謂，反正並不是要多認真去經營另一段新的感情，只是偶爾玩玩、做做實驗、或是開心一下而已，加上運氣不好被抓包，那就先好好道歉穩住目前的戀情，然後下次不要被抓到就好了。<br><br>沒有不愛，只是偶爾玩玩，被抓到就是道歉，如果對方要的是個道歉或懺悔的話，那麼就演給對方看吧！反正只要不分手，能力範圍內做得到的就做。但這不代表以後就不會偷吃，道歉和偷吃可以是毫不相關的兩回事。<br><br>本文作者：亞提米斯，星座塔羅專欄作家，亞提米斯相信：每個人都能夠掌握自己的命運、開創自己的未來。美好的未來永遠是要靠自己去開拓的，只要用對方法，幸福就離我們不遠。<br><br>本文經授權轉自：月光下的占星塔羅</blockquote></p>
+      </div>
+      <div class="title" style="color: #FFF4E0;"><i class="dropdown icon" style="color: #f8b500;"></i>快訊／台東外海06：18規模4.1地震 最大震度3級</div>
+      <div class="content">
+        <a href="https://www.ettoday.net/news/20190108/1350671.htm" target="_blank"><blockquote>NEWS link</blockquote></a>
+        <p class="transition hidden"><blockquote>Published time: 2019-01-08T13:00:00</blockquote></p>
+        <p class="transition hidden"><blockquote>受到東北風減弱影響，北台灣今天水氣減少，降雨的情況稍微緩和，不過明(8)日又有另一波東北季風報到，降雨機率再度提高，到週四(10日)全台回暖，高溫將近30度。吳德榮則以「冬陽再現」來形容週四後的天氣型態。而玉山的初雪遲遲未到，也可能創下歷年最晚記錄。</blockquote></p>
+      </div>
+      <div class="title" style="color: #FFF4E0;"><i class="dropdown icon" style="color: #f8b500;"></i>林書豪攜手艾靈頓轉戰活塞？美專欄推估2月大限前可行3方交易 | ETtoday運動雲</div>
+      <div class="content">
+        <a href="https://sports.ettoday.net/news/1350607" target="_blank"><blockquote>NEWS link</blockquote></a>
+        <p class="transition hidden"><blockquote>Published time: 2019-01-08T07:00:00+08:00</blockquote></p>
+        <p class="transition hidden"><blockquote>▲林書豪。（圖／CFP）<br><br>體育中心／綜合報導<br><br>林書豪本季擺脫過去2季在布魯克林飽受傷病纏身的窘境重新奮起，本季場均上場18.7分鐘，能貢獻10.6分、3.4助攻，平均命中率更達到生涯新高的4成9；《Bleacher Report》專欄作家法瓦萊(Dan Favale)撰文推估2月交易大限前可行的交易案，他認為活塞可以考慮透過3方交易補進林書豪與熱火射手艾靈頓(Wayne Ellington)來提升外線實力。<br><br>上季開幕戰遭逢右膝髕骨韌帶斷裂重傷的林書豪，去年夏天無預警遭籃網交易，本季來到進入重建期的老鷹，從先發變成替補。雖然他對自己轉任板凳、擔任菜鳥楊恩(Trae Young)「導師」的角色沒有任何怨言，畢竟保持健康是他當前最大的目標；但對一名三十而立，在NBA征戰邁入第9季的球員來說，絕對還是希望替擁有季後賽實力的隊伍效力，畢竟生涯已進入下半段。<br><br>《Bleacher Report》專欄作家法瓦萊撰文推估今年2月交易大門關閉前，可行的交易方案，林書豪的名字又被提及。這位30歲台裔控衛本季場均上場時間創下菜鳥季後的新低，跌到18.7分鐘，但他仍能繳出場均10.6分、3.4助攻和2.4籃板的高效數據，平均投籃命中率更來到個人新高的4成9。<br><br>▲林書豪在老鷹轉任替補。（圖／達志影像／美聯社）<br><br>法瓦萊認為，正在重建需要累積選秀權的老鷹，可以和熱火、活塞進行3方交易，老鷹將從中獲得活塞29歲前鋒洛伊爾(Jon Leuer)、史密斯(Ish Smith)和一個2019年首輪選秀權；活塞得到熱火射手艾靈頓、林書豪；熱火則獲得羅賓森三世(Glenn Robinson III)。<br><br>活塞本季至今的外線命中率僅3成33，排名全聯盟倒數第3，補進艾靈頓和林書豪可望解決這個問題。林書豪能夠提升活塞的後場戰力，他擅長製造犯規，且對無球的打法也不陌生；近1個多月已跌出邁阿密輪替陣容的射手艾靈頓，過去2季在熱火場均得分都超過10分，上季的三分命中率達到3成92，每場平均能貢獻2.9顆三分球，外線投射能力依舊是他的「賣點」。<br><br>等熱火主控卓吉奇(Goran Dragic)於全明星周後歸隊，艾靈頓預計將更難獲得上場時間。他近1個多月只打了5場比賽，去年12月12日上場17分鐘後，接下來出賽的3場合計僅上陣14分鐘，看起來熱火已經準備兜售他。<br><br>▲熱火射手艾靈頓。（圖／CFP）</blockquote></p>
+      </div>
+      <div class="title" style="color: #FFF4E0;"><i class="dropdown icon" style="color: #f8b500;"></i>幸福時光再延長 育兒生活延年又益壽</div>
+      <div class="content">
+        <a href="https://health.ettoday.net/news/1276599" target="_blank"><blockquote>NEWS link</blockquote></a>
+        <p class="transition hidden"><blockquote>Published time: 2019-01-08T08:00:00+08:00</blockquote></p>
+        <p class="transition hidden"><blockquote>▲幸福時光再延長，育兒生活延年又益壽（圖／pixabay.com）<br><br><br><br>作者：婦產科 曾翌捷 醫師<br><br>從孩子呱呱落地的那一刻起，父母的生活似乎就只剩下吃喝拉撒的大小雜事。從不分晝夜的嚎啕大哭開始，迎接新手父母的還有每天下班後忙著餵小孩，洗香香，親子時光，和陪伴就寢等每日必備行程。另外，孩子們三不五時的大小病痛也總是殺得爸媽措手不及。充實忙碌的生活讓父母每每看著臉書上單身親友和頂客族們的質感生活，只能唏噓在孩子們安睡的這個時刻，已經是自己難得的幸福時光。但是，育兒所帶來的好處，除了珍貴的記憶及被愛的幸福外，也許比你想得多更多。<br><br>育兒有助延年益壽<br><br>過去的研究指出，相較於頂客族，育有子女的夫婦有著較長的壽命。雖然其中的關聯仍未有所定論，但後續一系列的研究分析都肯定了這項論點。然而，根據甫於3月14日發表在聲名卓著的"流行病學和社區健康期刊"( Journal of Epidemiology and Community Health)的一項大型研究結果，＂養兒防老＂這句老祖宗的名言似乎是這項論點的最佳解釋。<br><br>這篇由瑞典學者Karin Modig所主持的研究，利用北歐國家戶政系統的篩選，納入了140萬人的研究資料，包含了受試對象及其子女的相關資訊。研究發現，相較於頂客族，育有子女的夫婦到了60歲，已為人父者比起沒有孩子的同齡男性平均可再多活兩年，而為人母者的則是1.5年。整體而言，育兒生活對男性延年益壽的助益要比女性高出得多；另外，在未婚族群的差異也比已婚族群來得大，說明有位一生相守的另一半也許是另一個長壽的重要關鍵。<br><br>為了子女，做出改變<br><br>Karin Modig表示，造成這項差異的原因可能是透過撫育子女，父母容易改變為較為健康的生活型態，包含規律的作息，更多的運動量，以及良好的飲食習慣。而在孩子成年後，對年長父母所提供的身體及心理上的照顧，也有助於延長父母的壽命。原因是年長父母可透過子女與社會有更多的連結，容易得到照顧上所需的社會資源，這從比較晚年居住在安養院及與子女同住兩大族群的資料分析，可得知育有子女在晚年照顧上的優勢。<br><br>男孩女孩一樣好<br><br>不過，與一般大眾認知不同的是，孩子的性別並不影響父母的壽命。原因是兒子雖然在照顧上可能不如女兒周到，但是在妻子或女友的協助下仍然能達到不錯的照顧品質。<br><br>隨著社會結構的改變，＂養兒防老＂或許已經不如以往定義上的狹隘。它代表的不只是晚年生活的保障；而是在親子的相互呵護間，這難得的幸福與緣份也許可以再多停留片刻。別忘了，無論愛或不愛，我們下輩子都不再相見。<br><br>同場加映：胎教音樂的誤會<br><br>搜尋附近的診所：婦產科<br><br>加入照護線上LINE好友，健康不漏接！</blockquote></p>
+      </div>
+      <div class="title" style="color: #FFF4E0;"><i class="dropdown icon" style="color: #f8b500;"></i>ETtoday新聞雲</div>
+      <div class="content">
+        <a href="http://www.ettoday.net/news/news-list-2019-01-08-6.htm" target="_blank"><blockquote>NEWS link</blockquote></a>
+        <p class="transition hidden"><blockquote>Published time: 2019-01-08T00:00:00</blockquote></p>
+        <p class="transition hidden"><blockquote>每周六21-22點鎖定《ETtoday新聞雲》，全新節目《慧眼看天下》帶您掌握國際!<br><br>加入降價立刻通知你，還有機會抽iPhone唷！現在就抽！</blockquote></p>
+      </div>
+    </div>  </div>
+</div>
+<div class="ui bottom attached tab segment" data-tab="chinatimes" style=" color: #FFF4E0; background-color: #393E46">
+
+<h1>chinatimes</h1>
+  <div class="ui segment" style=" color: #FFF4E0; background-color: #393E46">
+    <div class="ui accordion" style="width:600px; color: #FFF4E0; background-color: #393E46">
+    </div>  </div></div>  </div>
+  <div class="ui inverted vertical footer segment">
+    <div class="ui center aligned container">
+      <div class="ui stackable inverted divided grid">
+        <div class="three wide column">
+          <h4 class="ui inverted header">Group 1</h4>
+          <div class="ui inverted link list">
+            <a href="https://semantic-ui.com/examples/fixed.html#" class="item">Link One</a>
+            <a href="https://semantic-ui.com/examples/fixed.html#" class="item">Link Two</a>
+            <a href="https://semantic-ui.com/examples/fixed.html#" class="item">Link Three</a>
+            <a href="https://semantic-ui.com/examples/fixed.html#" class="item">Link Four</a>
+          </div>
+        </div>
+        <div class="three wide column">
+          <h4 class="ui inverted header">Group 2</h4>
+          <div class="ui inverted link list">
+            <a href="https://semantic-ui.com/examples/fixed.html#" class="item">Link One</a>
+            <a href="https://semantic-ui.com/examples/fixed.html#" class="item">Link Two</a>
+            <a href="https://semantic-ui.com/examples/fixed.html#" class="item">Link Three</a>
+            <a href="https://semantic-ui.com/examples/fixed.html#" class="item">Link Four</a>
+          </div>
+        </div>
+        <div class="three wide column">
+          <h4 class="ui inverted header">Group 3</h4>
+          <div class="ui inverted link list">
+            <a href="https://semantic-ui.com/examples/fixed.html#" class="item">Link One</a>
+            <a href="https://semantic-ui.com/examples/fixed.html#" class="item">Link Two</a>
+            <a href="https://semantic-ui.com/examples/fixed.html#" class="item">Link Three</a>
+            <a href="https://semantic-ui.com/examples/fixed.html#" class="item">Link Four</a>
+          </div>
+        </div>
+        <div class="seven wide column">
+          <h4 class="ui inverted header">Author</h4>
+          <p>HHSK@TAIWAN</p>
+          <p>CQua team</p>
+        </div>
+      </div>
+      <div class="ui inverted section divider"></div>
+      <img src="./Fixed Menu Example - Semantic_files/logo.png" class="ui centered mini image">
+      <div class="ui horizontal inverted small divided link list">
+        <a class="item" href="https://semantic-ui.com/examples/fixed.html#">Site Map</a>
+        <a class="item" href="https://semantic-ui.com/examples/fixed.html#">Contact Us</a>
+        <a class="item" href="https://semantic-ui.com/examples/fixed.html#">Terms and Conditions</a>
+        <a class="item" href="https://semantic-ui.com/examples/fixed.html#">Privacy Policy</a>
+      </div>
+    </div>
+  </div>
+
+
+
+</body></html>
